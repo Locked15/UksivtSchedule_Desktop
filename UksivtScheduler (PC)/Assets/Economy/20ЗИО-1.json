@@ -1,0 +1,270 @@
+{
+  "groupName" : "20ЗИО-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Математика",
+      "teacher" : "Гущина М.В.",
+      "place" : "341"
+    }, {
+      "number" : 1,
+      "name" : "История",
+      "teacher" : "Каримова И.Р.",
+      "place" : "341"
+    }, {
+      "number" : 2,
+      "name" : "Ин.яз",
+      "teacher" : "Вачаева М.В.",
+      "place" : "341"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Геодезия",
+      "teacher" : "Нагаева З.Т.",
+      "place" : "337"
+    }, {
+      "number" : 4,
+      "name" : "Основы эк.теории",
+      "teacher" : "Акчева Д.М.",
+      "place" : "341"
+    }, {
+      "number" : 5,
+      "name" : "Математика",
+      "teacher" : "Гущина М.В.",
+      "place" : "341"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Введение в ПД",
+      "teacher" : "Засыпкин К.Н.",
+      "place" : "341"
+    }, {
+      "number" : 4,
+      "name" : "Математика",
+      "teacher" : "Гущина М.В.",
+      "place" : "341"
+    }, {
+      "number" : 5,
+      "name" : "Физ-ра",
+      "teacher" : "Емельянова Л.Г.",
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Введение в ПД",
+      "teacher" : "Засыпкин К.Н.",
+      "place" : "341"
+    }, {
+      "number" : 1,
+      "name" : "Основы эк.теории",
+      "teacher" : "Акчева Д.М.",
+      "place" : "341"
+    }, {
+      "number" : 2,
+      "name" : "УТИНИ",
+      "teacher" : "Акчева Д.М.",
+      "place" : "341"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Геодезия",
+      "teacher" : "Нагаева З.Т.",
+      "place" : "337"
+    }, {
+      "number" : 1,
+      "name" : "Геодезия",
+      "teacher" : "Нагаева З.Т.",
+      "place" : "337"
+    }, {
+      "number" : 2,
+      "name" : "ЭОП",
+      "teacher" : "Юнусова Л.Р.",
+      "place" : "341"
+    }, {
+      "number" : 3,
+      "name" : "ЭОП",
+      "teacher" : "Юнусова Л.Р.",
+      "place" : "341"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "ИТ в ПД",
+      "teacher" : "Дибаев А.Ф.",
+      "place" : "337"
+    }, {
+      "number" : 3,
+      "name" : "ИТ в ПД",
+      "teacher" : "Дибаев А.Ф.",
+      "place" : "337"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

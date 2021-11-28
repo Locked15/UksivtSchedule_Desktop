@@ -1,0 +1,270 @@
+{
+  "groupName" : "20ПД-3",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "ГП и ГПП",
+      "teacher" : "Зайнуллина И.И.",
+      "place" : "203"
+    }, {
+      "number" : 4,
+      "name" : "ТГП",
+      "teacher" : "Султанов А.Х.",
+      "place" : "203"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Математика",
+      "teacher" : "Бакирова А.Ю.",
+      "place" : "118"
+    }, {
+      "number" : 1,
+      "name" : "Физ-ра",
+      "teacher" : "Валиев Р.Ф.",
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Ин.яз",
+      "teacher" : "Мухаметова Л.В.",
+      "place" : "203"
+    }, {
+      "number" : 2,
+      "name" : "Математика",
+      "teacher" : "Бакирова А.Ю.",
+      "place" : "203"
+    }, {
+      "number" : 3,
+      "name" : "ОЭП",
+      "teacher" : "Гареева Г.Ф.",
+      "place" : "203"
+    }, {
+      "number" : 4,
+      "name" : "ГП и ГПП",
+      "teacher" : "Зайнуллина И.И.",
+      "place" : "203"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "История",
+      "teacher" : "Исмагилова Г.М.",
+      "place" : "203"
+    }, {
+      "number" : 2,
+      "name" : "ОЭП",
+      "teacher" : "Гареева Г.Ф.",
+      "place" : "203"
+    }, {
+      "number" : 3,
+      "name" : "ТГП",
+      "teacher" : "Султанов А.Х.",
+      "place" : "203"
+    }, {
+      "number" : 4,
+      "name" : "ТГП",
+      "teacher" : "Султанов А.Х.",
+      "place" : "203"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Математика",
+      "teacher" : "Бакирова А.Ю.",
+      "place" : "203"
+    }, {
+      "number" : 2,
+      "name" : "АП",
+      "teacher" : "Музафаров Ф.Ф.",
+      "place" : "203"
+    }, {
+      "number" : 3,
+      "name" : "АП",
+      "teacher" : "Музафаров Ф.Ф.",
+      "place" : "203"
+    }, {
+      "number" : 4,
+      "name" : "ТГП",
+      "teacher" : "Султанов А.Х.",
+      "place" : "203"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "АП",
+      "teacher" : "Музафаров Ф.Ф.",
+      "place" : "315"
+    }, {
+      "number" : 1,
+      "name" : "История",
+      "teacher" : "Исмагилова Г.М.",
+      "place" : "315"
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

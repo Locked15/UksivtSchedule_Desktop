@@ -1,0 +1,270 @@
+{
+  "groupName" : "21ПСА-2",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Математика",
+      "teacher" : null,
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 3,
+      "name" : "Русский",
+      "teacher" : "Мустакимова И. М.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 4,
+      "name" : "Информатика",
+      "teacher" : "Мусина Г. А.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 5,
+      "name" : "Общество",
+      "teacher" : "Исмагилова Г. М.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Ин. Яз.",
+      "teacher" : "Вачаева М. В.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 3,
+      "name" : "Баш. Яз.",
+      "teacher" : "Мухамедьянова Г. М.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 4,
+      "name" : "Экономика",
+      "teacher" : "Засыпкин К. Н.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 5,
+      "name" : "Математика",
+      "teacher" : null,
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Лит-Ра (1 Группа)",
+      "teacher" : "Мустакимова И. М.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 4,
+      "name" : "История",
+      "teacher" : "Салихов Г. Г.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 5,
+      "name" : "География",
+      "teacher" : "Юнусова Л. Р.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Астрономия",
+      "teacher" : null,
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 3,
+      "name" : "Право",
+      "teacher" : "Исхакова С. И.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 4,
+      "name" : "Ин. Яз. (2 Группа)",
+      "teacher" : "Вачаева М. В.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Математика",
+      "teacher" : null,
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 3,
+      "name" : "Физ-Ра",
+      "teacher" : "Гильманов Р. А.",
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "История",
+      "teacher" : "Салихов Г. Г.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "ОБЖ",
+      "teacher" : null,
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 3,
+      "name" : "Лит-Ра",
+      "teacher" : "Мустакимова И. М.",
+      "place" : "Чз общежитие"
+    }, {
+      "number" : 4,
+      "name" : "Физ-Ра (1 Группа)",
+      "teacher" : "Гильманов Р. А.",
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

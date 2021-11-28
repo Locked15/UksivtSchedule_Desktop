@@ -1,0 +1,270 @@
+{
+  "groupName" : "19СА-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "МДК 01.02",
+      "teacher" : "Тимашев Т.Р.",
+      "place" : "231"
+    }, {
+      "number" : 1,
+      "name" : "МДК 01.02",
+      "teacher" : "Тимашев Т.Р.",
+      "place" : "231"
+    }, {
+      "number" : 2,
+      "name" : "МДК 01.02",
+      "teacher" : "Тимашев Т.Р.",
+      "place" : "231"
+    }, {
+      "number" : 3,
+      "name" : "Физ-ра",
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "МДК 01.02",
+      "teacher" : "Тимашев Т.Р.",
+      "place" : "231"
+    }, {
+      "number" : 1,
+      "name" : "КС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "231"
+    }, {
+      "number" : 2,
+      "name" : "КС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "231"
+    }, {
+      "number" : 3,
+      "name" : "КС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "231"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "КС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "231"
+    }, {
+      "number" : 3,
+      "name" : "КС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "231"
+    }, {
+      "number" : 4,
+      "name" : "Ин.яз",
+      "teacher" : "Пустовалова Э.У.",
+      "place" : "231"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "МДК 01.02",
+      "teacher" : "Тимашев Т.Р.",
+      "place" : "231"
+    }, {
+      "number" : 1,
+      "name" : "МДК 01.02",
+      "teacher" : "Тимашев Т.Р.",
+      "place" : "231"
+    }, {
+      "number" : 2,
+      "name" : "МДК 01.02",
+      "teacher" : "Тимашев Т.Р.",
+      "place" : "231"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "ОАИП",
+      "teacher" : "Басырова З.М.",
+      "place" : "231"
+    }, {
+      "number" : 5,
+      "name" : "ОАИП",
+      "teacher" : "Басырова З.М.",
+      "place" : "231"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "ОАКС",
+      "teacher" : "Стива И.М.",
+      "place" : "231"
+    }, {
+      "number" : 4,
+      "name" : "ОАКС",
+      "teacher" : "Стива И.М.",
+      "place" : "231"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

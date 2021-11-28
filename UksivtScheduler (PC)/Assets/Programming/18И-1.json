@@ -1,0 +1,270 @@
+{
+  "groupName" : "18И-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "Web-программир",
+      "teacher" : "Файзулов М.И.",
+      "place" : "245"
+    }, {
+      "number" : 5,
+      "name" : "Web-программир",
+      "teacher" : "Файзулов М.И.",
+      "place" : "245"
+    }, {
+      "number" : 6,
+      "name" : "Web-программир",
+      "teacher" : "Файзулов М.И.",
+      "place" : "245"
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "МДК 03.01",
+      "teacher" : "Белозерцев Л.Н.",
+      "place" : "245"
+    }, {
+      "number" : 5,
+      "name" : "МДК 03.01",
+      "teacher" : "Белозерцев Л.Н.",
+      "place" : "245"
+    }, {
+      "number" : 6,
+      "name" : "МДК 03.01",
+      "teacher" : "Белозерцев Л.Н.",
+      "place" : "245"
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "МДК 02.01",
+      "teacher" : "Файзулов М.И.",
+      "place" : "245"
+    }, {
+      "number" : 1,
+      "name" : "МДК 02.01",
+      "teacher" : "Файзулов М.И.",
+      "place" : "245"
+    }, {
+      "number" : 2,
+      "name" : "МДК 02.01",
+      "teacher" : "Файзулов М.И.",
+      "place" : "245"
+    }, {
+      "number" : 3,
+      "name" : "Web-программир",
+      "teacher" : null,
+      "place" : "245"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Web-программир",
+      "teacher" : "Файзулов М.И.",
+      "place" : "245"
+    }, {
+      "number" : 1,
+      "name" : "Web-программир",
+      "teacher" : "Файзулов М.И.",
+      "place" : "245"
+    }, {
+      "number" : 2,
+      "name" : "Хакимзянов М.Р.",
+      "teacher" : "ПП 02.01",
+      "place" : "245"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Физ-ра",
+      "teacher" : "Емельянова Л.Н.",
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Ин.яз",
+      "teacher" : "Валеева З.М.",
+      "place" : "245"
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Хакимзянов М.Р.",
+      "teacher" : "ПП 02.01",
+      "place" : "245"
+    }, {
+      "number" : 2,
+      "name" : "Хакимзянов М.Р.",
+      "teacher" : "ПП 02.01",
+      "place" : "245"
+    }, {
+      "number" : 3,
+      "name" : "Хакимзянов М.Р.",
+      "teacher" : "ПП 02.01",
+      "place" : "245"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

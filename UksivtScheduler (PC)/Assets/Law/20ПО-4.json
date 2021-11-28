@@ -1,0 +1,270 @@
+{
+  "groupName" : "20ПО-4",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Труд право",
+      "teacher" : null,
+      "place" : "322"
+    }, {
+      "number" : 4,
+      "name" : "ТГП",
+      "teacher" : "Альмухаметова Г.А.",
+      "place" : "117"
+    }, {
+      "number" : 5,
+      "name" : "Математика",
+      "teacher" : "Бакирова А.Ю.",
+      "place" : "117"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "ПИСО",
+      "teacher" : "Габбасова Н.А.",
+      "place" : "117"
+    }, {
+      "number" : 1,
+      "name" : "ПИСО",
+      "teacher" : "Габбасова Н.А.",
+      "place" : "117"
+    }, {
+      "number" : 2,
+      "name" : "Админ право",
+      "teacher" : "Дуйсенов И.А.",
+      "place" : "117"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "ДОУ",
+      "teacher" : "Алибаева Р.Р.",
+      "place" : "117"
+    }, {
+      "number" : 2,
+      "name" : "Гражд право",
+      "teacher" : "Фахретдинов И.М.",
+      "place" : "117"
+    }, {
+      "number" : 3,
+      "name" : "ПИСО",
+      "teacher" : "Габбасова Н.А.",
+      "place" : "343"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Физ-ра",
+      "teacher" : "Гильманов Р.А.",
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "Админ право",
+      "teacher" : "Дуйсенова И.А.",
+      "place" : "117"
+    }, {
+      "number" : 5,
+      "name" : "БЖД",
+      "teacher" : "Фролов А.А.",
+      "place" : "117"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "История",
+      "teacher" : "Каримова И.Р.",
+      "place" : "111"
+    }, {
+      "number" : 3,
+      "name" : "Менеджмент",
+      "teacher" : "Киселева М.В.",
+      "place" : "117"
+    }, {
+      "number" : 4,
+      "name" : "Математика",
+      "teacher" : "Бакирова А.Ю,",
+      "place" : "117"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "КП",
+      "teacher" : "Альмухаметова Г.А.",
+      "place" : "117"
+    }, {
+      "number" : 1,
+      "name" : "ТГП",
+      "teacher" : "Альмухаметова Г.А.",
+      "place" : "117"
+    }, {
+      "number" : 2,
+      "name" : "Ин.яз",
+      "teacher" : "Мухаметова Л.В.",
+      "place" : "117"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

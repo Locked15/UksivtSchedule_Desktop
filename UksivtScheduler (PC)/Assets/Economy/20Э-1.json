@@ -1,0 +1,270 @@
+{
+  "groupName" : "20Э-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Математика",
+      "teacher" : "Максимова В.Д.",
+      "place" : "305"
+    }, {
+      "number" : 4,
+      "name" : "Ин.яз.",
+      "teacher" : "Нуриева А.М.",
+      "place" : "305"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Основы БУ",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    }, {
+      "number" : 4,
+      "name" : "БЖД",
+      "teacher" : null,
+      "place" : "305"
+    }, {
+      "number" : 5,
+      "name" : "Основы предпр.деят.",
+      "teacher" : "Засыпкин К.Н.",
+      "place" : "305"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Основы БУ",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    }, {
+      "number" : 2,
+      "name" : "Основы БУ",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    }, {
+      "number" : 3,
+      "name" : "Физ-ра",
+      "teacher" : "Емельянова Л.Г.",
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "МДК 05.01",
+      "teacher" : null,
+      "place" : "305"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Математика",
+      "teacher" : "Максимова В.Д.",
+      "place" : "305"
+    }, {
+      "number" : 4,
+      "name" : "История",
+      "teacher" : "Галлямов Р.Р.",
+      "place" : "305"
+    }, {
+      "number" : 5,
+      "name" : "Психология общения",
+      "teacher" : "Алибаева Р.Р.",
+      "place" : "305"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Основы БУ",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    }, {
+      "number" : 3,
+      "name" : "Основы БУ",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    }, {
+      "number" : 4,
+      "name" : "БЖД",
+      "teacher" : null,
+      "place" : "305"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Основы предпр.деят.",
+      "teacher" : "Засыпкин К.Н.",
+      "place" : "305"
+    }, {
+      "number" : 1,
+      "name" : "МДК 05.01",
+      "teacher" : null,
+      "place" : "305"
+    }, {
+      "number" : 2,
+      "name" : "УП 05.01",
+      "teacher" : null,
+      "place" : "305"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

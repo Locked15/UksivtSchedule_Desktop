@@ -8,4 +8,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Classes\SiteParser\" />
+    <Folder Include="Classes\DocumentParser\" />
+  </ItemGroup>
+
 </Project>

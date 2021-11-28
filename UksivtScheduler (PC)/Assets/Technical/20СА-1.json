@@ -1,0 +1,270 @@
+{
+  "groupName" : "20СА-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Баранов А.В.",
+      "teacher" : "Физ-ра",
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Основы электр.",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "11"
+    }, {
+      "number" : 2,
+      "name" : "Основы электр.",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "11"
+    }, {
+      "number" : 3,
+      "name" : "Основы электр.",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "11"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "ОС ",
+      "teacher" : "Озерова Р.А.",
+      "place" : "233"
+    }, {
+      "number" : 1,
+      "name" : "ЭВМ",
+      "teacher" : "Гарипова Р.М.",
+      "place" : "233"
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "ИТ",
+      "teacher" : "Васильева А.А.",
+      "place" : "233"
+    }, {
+      "number" : 4,
+      "name" : "ОС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "233"
+    }, {
+      "number" : 5,
+      "name" : "ОС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "233"
+    }, {
+      "number" : 6,
+      "name" : "Психология общ",
+      "teacher" : "Алибаева Р.Р.",
+      "place" : "233"
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "ОС/-",
+      "teacher" : "Озерова Р.А.",
+      "place" : "233"
+    }, {
+      "number" : 1,
+      "name" : "ОС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "233"
+    }, {
+      "number" : 2,
+      "name" : "ОС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "233"
+    }, {
+      "number" : 3,
+      "name" : "-/ОС",
+      "teacher" : "Озерова Р.А.",
+      "place" : "233"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Ин.яз",
+      "teacher" : "Пустовалова Э.У.",
+      "place" : "233"
+    }, {
+      "number" : 4,
+      "name" : "История",
+      "teacher" : "Акьюлов  А.С.",
+      "place" : "233"
+    }, {
+      "number" : 5,
+      "name" : "ЭВМ",
+      "teacher" : "Гарипова Р.М.",
+      "place" : "233"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "ИТ",
+      "teacher" : "Васильева А.А.",
+      "place" : "233"
+    }, {
+      "number" : 4,
+      "name" : "ИТ",
+      "teacher" : "Васильева А.А.",
+      "place" : "233"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

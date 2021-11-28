@@ -1,0 +1,275 @@
+{
+  "groupName" : "21ПД-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Математика",
+      "teacher" : "Максимова В. Д.",
+      "place" : "312"
+    }, {
+      "number" : 2,
+      "name" : "Экономика",
+      "teacher" : "Киселева М. В.",
+      "place" : "312"
+    }, {
+      "number" : 3,
+      "name" : "Ин. Яз.",
+      "teacher" : "Мухаметьянова Л. В.",
+      "place" : "312"
+    }, {
+      "number" : 4,
+      "name" : "Общество",
+      "teacher" : "Исмагилова Г. М.",
+      "place" : "312"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "География",
+      "teacher" : "Юнусова Л. Р.",
+      "place" : "312"
+    }, {
+      "number" : 1,
+      "name" : "История",
+      "teacher" : "Гумерова Э. Г.",
+      "place" : "312"
+    }, {
+      "number" : 2,
+      "name" : "Русский",
+      "teacher" : "Постнова Д. В.",
+      "place" : "312"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Право",
+      "teacher" : "Гареева Г. Ф.",
+      "place" : "312"
+    }, {
+      "number" : 3,
+      "name" : "Физ-Ра (1 Группа)",
+      "teacher" : "Валиев Р. Ф.",
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "История (2 Группа)",
+      "teacher" : "Гумерова Э. Г.",
+      "place" : "312"
+    }, {
+      "number" : 4,
+      "name" : "Ин. Яз. (1 Группа)",
+      "teacher" : "Мухаметьянова Л. В.",
+      "place" : "312"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "Математика",
+      "teacher" : "Максимова В. Д.",
+      "place" : "312"
+    }, {
+      "number" : 5,
+      "name" : "ОБЖ",
+      "teacher" : "Кобелева С. В.",
+      "place" : "312"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Математика",
+      "teacher" : "Максимова В. Д.",
+      "place" : "312"
+    }, {
+      "number" : 2,
+      "name" : "Астрономия",
+      "teacher" : "Сыртланова Л. А.",
+      "place" : "312"
+    }, {
+      "number" : 3,
+      "name" : "Физ-Ра",
+      "teacher" : "Валиев Р. Ф.",
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Лит-Ра",
+      "teacher" : "Постнова Д. В.",
+      "place" : "312"
+    }, {
+      "number" : 2,
+      "name" : "Информатика",
+      "teacher" : "Мусина Г. А.",
+      "place" : "312"
+    }, {
+      "number" : 3,
+      "name" : "Баш. Яз.",
+      "teacher" : "Юмагулова Г. К.",
+      "place" : "312"
+    }, {
+      "number" : 4,
+      "name" : "Лит-Ра (2 Группа)",
+      "teacher" : "Постнова Д. В.",
+      "place" : "312"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

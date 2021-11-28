@@ -1,0 +1,270 @@
+{
+  "groupName" : "19ЗИО-2",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "БУ и НО",
+      "teacher" : "Киселева М.В.",
+      "place" : "331"
+    }, {
+      "number" : 5,
+      "name" : "БУ и НО",
+      "teacher" : "Киселева М.В.",
+      "place" : "331"
+    }, {
+      "number" : 6,
+      "name" : "Эконом.анализ",
+      "teacher" : "Акчева Д.М.",
+      "place" : "331"
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "ФДОиК",
+      "teacher" : "Якшибаева А.И.",
+      "place" : "331"
+    }, {
+      "number" : 5,
+      "name" : "Кадастр",
+      "teacher" : "Нагаева З.Т.",
+      "place" : "337"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "УТИНИ",
+      "teacher" : "Акчева Д.М.",
+      "place" : "331"
+    }, {
+      "number" : 3,
+      "name" : "УТИНИ",
+      "teacher" : "Акчева Д.М.",
+      "place" : "331"
+    }, {
+      "number" : 4,
+      "name" : "Физ-ра",
+      "teacher" : "Емельянова Л.Г.",
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Суд защита ЗИП",
+      "teacher" : "Юмагулов И.Т.",
+      "place" : "337"
+    }, {
+      "number" : 1,
+      "name" : "Кадастр",
+      "teacher" : "Нагаева З.Т.",
+      "place" : "337"
+    }, {
+      "number" : 2,
+      "name" : "ФДОиК",
+      "teacher" : "Якшибаева А.И.",
+      "place" : "331"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "ОНИ",
+      "teacher" : null,
+      "place" : "331"
+    }, {
+      "number" : 4,
+      "name" : "УП 01.",
+      "teacher" : "Акчева Д.М.",
+      "place" : "331"
+    }, {
+      "number" : 5,
+      "name" : "УП 01.",
+      "teacher" : "Акчева Д.М.",
+      "place" : "331"
+    }, {
+      "number" : 6,
+      "name" : "УП 01.",
+      "teacher" : "Акчева Д.М.",
+      "place" : "331"
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Ин.яз",
+      "teacher" : "Нуриева А.М.",
+      "place" : "331"
+    }, {
+      "number" : 3,
+      "name" : "ОНИ",
+      "teacher" : null,
+      "place" : "331"
+    }, {
+      "number" : 4,
+      "name" : "Эконом.анализ",
+      "teacher" : "Акчева Д.М.",
+      "place" : "331"
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

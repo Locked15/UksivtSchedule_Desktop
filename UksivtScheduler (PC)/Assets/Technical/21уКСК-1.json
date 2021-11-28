@@ -1,0 +1,270 @@
+{
+  "groupName" : "21уКСК-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Ин.яз",
+      "teacher" : "Ахметова А.М.",
+      "place" : "214"
+    }, {
+      "number" : 1,
+      "name" : "ЭВМ",
+      "teacher" : "Бакирова А.Ю,",
+      "place" : "214"
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Слесарномонт пр/-",
+      "teacher" : "Еремин В.В.",
+      "place" : "м"
+    }, {
+      "number" : 1,
+      "name" : "Слесарномонт пр/-",
+      "teacher" : "Еремин В.В.",
+      "place" : "м"
+    }, {
+      "number" : 2,
+      "name" : "Слесарномонт пр/-",
+      "teacher" : "Еремин В.В.",
+      "place" : "м"
+    }, {
+      "number" : 3,
+      "name" : "Архитектура ЭВМ",
+      "teacher" : "Лепеева Д.М.",
+      "place" : "2"
+    }, {
+      "number" : 4,
+      "name" : "-/Слесарномонт пр",
+      "teacher" : "Еремин В.В.",
+      "place" : "м"
+    }, {
+      "number" : 5,
+      "name" : "-/Слесарномонт пр",
+      "teacher" : "Еремин В.В.",
+      "place" : "м"
+    }, {
+      "number" : 6,
+      "name" : "-/Слесарномонт пр",
+      "teacher" : "Еремин В.В.",
+      "place" : "м"
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Основы электр/-",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "1"
+    }, {
+      "number" : 3,
+      "name" : "Основы электр",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "1"
+    }, {
+      "number" : 4,
+      "name" : "Основы электр",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "1"
+    }, {
+      "number" : 5,
+      "name" : "'-/Основы электр",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "1"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Основы электр",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "214"
+    }, {
+      "number" : 2,
+      "name" : "Основы электр",
+      "teacher" : "Ларионова Е.В.",
+      "place" : "214"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "СМРТО",
+      "teacher" : "Кувшинников А.М.",
+      "place" : "214"
+    }, {
+      "number" : 4,
+      "name" : "Инж.графика",
+      "teacher" : "Кувшинников А.М.",
+      "place" : "214"
+    }, {
+      "number" : 5,
+      "name" : "Физ-ра",
+      "teacher" : "Гильманов Р.А.",
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : "Теоретич.механика",
+      "teacher" : "Шарипов Н.Т.",
+      "place" : "214"
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Инж.графика/-",
+      "teacher" : "Кувшинников А.М.",
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "СМРТО",
+      "teacher" : "Кувшинников А.М.",
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Инж.графика",
+      "teacher" : "Кувшинников А.М.",
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "-/Инж.графика",
+      "teacher" : "Кувшинников А.М.",
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

@@ -1,0 +1,270 @@
+{
+  "groupName" : "18ИС-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Web-прогр",
+      "teacher" : "Файзулова А.И.",
+      "place" : "227"
+    }, {
+      "number" : 4,
+      "name" : "УП",
+      "teacher" : "Калимуллина З.К.",
+      "place" : "227"
+    }, {
+      "number" : 5,
+      "name" : "ИТ ПРИС",
+      "teacher" : "Калимуллина З.К.",
+      "place" : "227"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Разработка прил ",
+      "teacher" : "Зиганшина Р.С.",
+      "place" : "227"
+    }, {
+      "number" : 2,
+      "name" : "Разработка прил ",
+      "teacher" : "Зиганшина Р.С.",
+      "place" : "227"
+    }, {
+      "number" : 3,
+      "name" : "Разработка прил ",
+      "teacher" : "Зиганшина Р.С.",
+      "place" : "227"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Web-прогр",
+      "teacher" : "Файзулова А.И.",
+      "place" : "227"
+    }, {
+      "number" : 4,
+      "name" : "Web-прогр",
+      "teacher" : "Файзулова А.И.",
+      "place" : "227"
+    }, {
+      "number" : 5,
+      "name" : "Web-прогр",
+      "teacher" : "Файзулова А.И.",
+      "place" : "227"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : "Ин.яз",
+      "teacher" : "Валеева З.М.",
+      "place" : "227"
+    }, {
+      "number" : 2,
+      "name" : "ИТ ПРИС",
+      "teacher" : "Калимуллина З.К.",
+      "place" : "227"
+    }, {
+      "number" : 3,
+      "name" : "ИТ ПРИС",
+      "teacher" : "Калимуллина З.К.",
+      "place" : "227"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "ИТ ПРИС",
+      "teacher" : "Калимуллина З.К.",
+      "place" : "227"
+    }, {
+      "number" : 4,
+      "name" : "ИТ ПРИС",
+      "teacher" : "Калимуллина З.К.",
+      "place" : "227"
+    }, {
+      "number" : 5,
+      "name" : "Физ-ра",
+      "teacher" : "Баранов А.В.",
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Прогр в 1С",
+      "teacher" : "Набиева Л.Р.",
+      "place" : "227"
+    }, {
+      "number" : 1,
+      "name" : "УП",
+      "teacher" : "Калимуллина З.К.",
+      "place" : "227"
+    }, {
+      "number" : 2,
+      "name" : "ИТ ПРИС",
+      "teacher" : "Калимуллина З.К.",
+      "place" : "227"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

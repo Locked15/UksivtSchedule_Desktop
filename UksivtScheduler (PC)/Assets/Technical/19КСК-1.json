@@ -1,0 +1,270 @@
+{
+  "groupName" : "19КСК-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : "Цифровая схемот.",
+      "teacher" : "Колесников Д.Н.",
+      "place" : "235"
+    }, {
+      "number" : 3,
+      "name" : "Цифровая схемот.",
+      "teacher" : "Колесников Д.Н.",
+      "place" : "235"
+    }, {
+      "number" : 4,
+      "name" : "ОСИС",
+      "teacher" : "Поглазов К.Ю.",
+      "place" : "235"
+    }, {
+      "number" : 5,
+      "name" : "Ин.яз",
+      "teacher" : "Каримова А.А.",
+      "place" : "235"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Физ-ра",
+      "teacher" : "Баранов А.В.",
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "ОАИП",
+      "teacher" : "Лепеева Д.И.",
+      "place" : "235"
+    }, {
+      "number" : 5,
+      "name" : "ОАИП",
+      "teacher" : "Лепеева Д.И.",
+      "place" : "235"
+    }, {
+      "number" : 6,
+      "name" : "ТВИМС",
+      "teacher" : "Латыпова Л.В.",
+      "place" : "235"
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "ОАИП/-",
+      "teacher" : "Лепеева Д.И.",
+      "place" : "235"
+    }, {
+      "number" : 4,
+      "name" : "ПЦУ",
+      "teacher" : null,
+      "place" : "235"
+    }, {
+      "number" : 5,
+      "name" : "ПЦУ",
+      "teacher" : null,
+      "place" : "235"
+    }, {
+      "number" : 6,
+      "name" : "ПЦУ",
+      "teacher" : null,
+      "place" : "235"
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "ТВИМС",
+      "teacher" : "Латыпова Л.В.",
+      "place" : "235"
+    }, {
+      "number" : 5,
+      "name" : "ТВИМС",
+      "teacher" : "Латыпова Л.В.",
+      "place" : "235"
+    }, {
+      "number" : 6,
+      "name" : "-/ОАИП",
+      "teacher" : "Лепеева Д.И.",
+      "place" : "235"
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : "ОСИС/-",
+      "teacher" : "Поглазов К.Ю.",
+      "place" : "235"
+    }, {
+      "number" : 5,
+      "name" : "ОСИС",
+      "teacher" : "Поглазов К.Ю.",
+      "place" : "235"
+    }, {
+      "number" : 6,
+      "name" : "-/ОСИС",
+      "teacher" : "Поглазов К.Ю.",
+      "place" : "235"
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Цифровая схемот/ -",
+      "teacher" : "Колесников Д.Н.",
+      "place" : "235"
+    }, {
+      "number" : 4,
+      "name" : "Цифровая схемот.",
+      "teacher" : "Колесников Д.Н.",
+      "place" : "235"
+    }, {
+      "number" : 5,
+      "name" : "'-/Цифровая схемот",
+      "teacher" : "Колесников Д.Н.",
+      "place" : "235"
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}

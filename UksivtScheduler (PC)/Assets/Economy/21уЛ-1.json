@@ -1,0 +1,270 @@
+{
+  "groupName" : "21уЛ-1",
+  "days" : [ {
+    "day" : "Monday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : "Основы эконом.теории",
+      "teacher" : "Акчева Д.М.",
+      "place" : "301"
+    }, {
+      "number" : 4,
+      "name" : "МДК 01.01",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    }, {
+      "number" : 5,
+      "name" : "МДК 01.01",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    }, {
+      "number" : 6,
+      "name" : "МДК 02.02",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    } ]
+  }, {
+    "day" : "Tuesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Психология общения",
+      "teacher" : "Алибаева Р.Р.",
+      "place" : "301"
+    }, {
+      "number" : 1,
+      "name" : "МДК 02.01",
+      "teacher" : null,
+      "place" : "301"
+    }, {
+      "number" : 2,
+      "name" : "РЯиКР",
+      "teacher" : "Мирасова И.В.",
+      "place" : "301"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Wednesday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "ИТ в ПД 1 подгр",
+      "teacher" : "Хасанова А.М.",
+      "place" : "301"
+    }, {
+      "number" : 1,
+      "name" : "ИТ в ПД",
+      "teacher" : "Хасанова А.М.",
+      "place" : "301"
+    }, {
+      "number" : 2,
+      "name" : "ИТ в ПД",
+      "teacher" : "Хасанова А.М.",
+      "place" : "301"
+    }, {
+      "number" : 3,
+      "name" : "ИТ в ПД 2 подгр",
+      "teacher" : "Хасанова А.М.",
+      "place" : "301"
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Thursday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Математика",
+      "teacher" : "Бакирова А.Ю.",
+      "place" : "301"
+    }, {
+      "number" : 1,
+      "name" : "Математика",
+      "teacher" : "Бакирова А.Ю.",
+      "place" : "301"
+    }, {
+      "number" : 2,
+      "name" : "Физ-ра",
+      "teacher" : "Баранов А.В.",
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Friday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "Математика",
+      "teacher" : "Бакирова А.Ю,",
+      "place" : "301"
+    }, {
+      "number" : 1,
+      "name" : "МДК 02.01",
+      "teacher" : null,
+      "place" : "301"
+    }, {
+      "number" : 2,
+      "name" : "Ин.яз",
+      "teacher" : "Каримова А.А.",
+      "place" : "301"
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Saturday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : "МДК 01.01",
+      "teacher" : "Кузнецова Л.Р.",
+      "place" : "317"
+    }, {
+      "number" : 1,
+      "name" : "История",
+      "teacher" : "Каримова И.Р.",
+      "place" : "301"
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  }, {
+    "day" : "Sunday",
+    "lessons" : [ {
+      "number" : 0,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 1,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 2,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 3,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 4,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 5,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    }, {
+      "number" : 6,
+      "name" : null,
+      "teacher" : null,
+      "place" : null
+    } ]
+  } ]
+}
