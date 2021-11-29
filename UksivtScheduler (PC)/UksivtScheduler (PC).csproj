@@ -9,8 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\SiteParser\" />
     <Folder Include="Classes\DocumentParser\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.16.1" />
   </ItemGroup>
 
 </Project>
