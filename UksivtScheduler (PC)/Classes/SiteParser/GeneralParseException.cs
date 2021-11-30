@@ -3,7 +3,7 @@
 /// <summary>
 /// Область с классом исключения парса веб-страницы.
 /// </summary>
-namespace UksivtScheduler__PC_.Classes.SiteParser
+namespace UksivtScheduler_PC.Classes.SiteParser
 {
     /// <summary>
     /// Класс, представляющий исключения парса страницы.

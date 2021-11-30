@@ -6,7 +6,7 @@ using System.Collections.Generic;
 /// <summary>
 /// Область кода с расписанием на день.
 /// </summary>
-namespace UksivtScheduler__PC_.Classes
+namespace UksivtScheduler_PC.Classes
 {
     /// <summary>
     /// Класс, представляющий расписание на один день.

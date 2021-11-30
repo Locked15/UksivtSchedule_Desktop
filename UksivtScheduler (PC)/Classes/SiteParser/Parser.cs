@@ -3,11 +3,12 @@ using System.Linq;
 using System.Collections.Generic;
 using AngleSharp;
 using AngleSharp.Dom;
+using Bool = System.Boolean;
 
 /// <summary>
 /// Область с парсером сайта.
 /// </summary>
-namespace UksivtScheduler__PC_.Classes.SiteParser
+namespace UksivtScheduler_PC.Classes.SiteParser
 {
     /// <summary>
     /// Класс, представляющий сущность парсера и его логику.
@@ -53,14 +54,18 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
         #region Область: Методы.
         /// <summary>
         /// Метод для получения списка возможных дней для просмотра замен.
+        /// <br/>
+        /// <strong>Выполнение занимает много времени, вызов стоит выполнять асинхронно.</strong>
         /// </summary>
+        /// <param name="limit">Количество месяцев, которые нужно получить.</param>
         /// <returns>Список с доступными заменами по месяцам.</returns>
         /// <exception cref="GeneralParseException">Общее исключение парса страницы.</exception>
-        public List<MonthChanges> ParseAvailableNodes()
+        public List<MonthChanges> ParseAvailableNodes(Int32 limit = 2)
         {
             #region Подобласть: Переменные считывания доступных замен.
             Int32 i = 0;
             Int32 monthCounter = 0;
+            Int32 currentYear = DateTime.Now.Year;
             String currentMonth = "Январь";
             List<ChangeElement> changes = new(30);
             List<MonthChanges> monthChanges = new(2);
@@ -92,14 +97,15 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
                         monthChanges.Add(new MonthChanges(currentMonth, changes));
                     }
 
-                    currentMonth = text.Substring(0, text.LastIndexOf(' ')).Replace(NonBreakSpace, "");
                     changes = new(30);
+                    currentMonth = text.Substring(0, text.LastIndexOf(' ')).Replace(NonBreakSpace, "");
+                    currentYear = Int32.Parse(text.Substring(text.LastIndexOf(' ')).Replace(NonBreakSpace, ""));
 
                     i = 1;
                 }
 
                 //Если мы встречаем тег "table", то мы дошли до таблицы с заменами на какой-либо месяц.
-                else if (nodeName.Equals("table") && monthCounter < 2)
+                else if (nodeName.Equals("table") && monthCounter < limit)
                 {
                     /* Первым тегом таблицы всегда идет "<thead>", определяющий заголовок, ...
                        ... а следом за ним — "<tbody>", определяющий тело таблицы. Он нам и нужен. */
@@ -109,6 +115,7 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
                     for (int j = 0; j < tableRows.Count; j++)
                     {
                         Int32 dayCounter = 0;
+                        Bool firstIteration = true;
                         IElement currentRow = tableRows[j];
 
                         //В первой строке содержатся ненужные значения, пропускаем:
@@ -128,13 +135,20 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
                                ... некоторое количество ячеек также будет пустым.                          */
                             if (cellText.Equals(NonBreakSpace))
                             {
+                                if (!firstIteration)
+                                {
+                                    ++dayCounter;
+                                }
+
+                                firstIteration = false;
                                 continue;
                             }
 
                             //В некоторых ячейках (дни без замен) нет содержимого, так что учитываем это.
                             if (tableCell.Children.Length < 1)
                             {
-                                changes.Add(new ChangeElement(i, dayCounter.GetDayByIndex(), null));
+                                changes.Add(new ChangeElement(new DateTime(currentYear, currentMonth.GetMonthNumber(), i), 
+                                dayCounter.GetDayByIndex(), null));
                             }
 
                             //В ином случае замены есть и нам нужно получить дочерний элемент.
@@ -143,8 +157,8 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
                                 IElement? link = tableCell.FirstElementChild;
 
                                 //На всякий случай обрабатываем возможную ошибку с получением атрибута:
-                                changes.Add(new ChangeElement(i, dayCounter.GetDayByIndex(), 
-                                link != null ? link.GetAttribute("href") : null));
+                                changes.Add(new ChangeElement(new DateTime(currentYear, currentMonth.GetMonthNumber(), i), 
+                                dayCounter.GetDayByIndex(), link.GetAttribute("href")));
                             }
 
                             ++i;
@@ -152,7 +166,6 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
                         }
                     }
 
-                    //Нет смысла считывать значения более чем с двух месяцев.
                     ++monthCounter;
                 }
             }

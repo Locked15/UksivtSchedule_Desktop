@@ -4,7 +4,7 @@ using Bool = System.Boolean;
 /// <summary>
 /// Область кода с классом, представляющим сущность одной замены.
 /// </summary>
-namespace UksivtScheduler__PC_.Classes.SiteParser
+namespace UksivtScheduler_PC.Classes.SiteParser
 {
     /// <summary>
     /// Класс, представляющий один элемент с заменами.
@@ -15,7 +15,7 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
         /// <summary>
         /// Свойство, содержащее число месяца, на которое идут замены.
         /// </summary>
-        public Int32 DayOfMonth { get; set; }
+        public DateTime Date { get; set; }
 
         /// <summary>
         /// Свойство, содержащее название дня недели, на который идут замены.
@@ -43,9 +43,9 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
         /// <param name="dayOfMonth">День месяца (число).</param>
         /// <param name="dayOfWeek">День недели.</param>
         /// <param name="linkToDocument">Ссылка на документ с заменами.</param>
-        public ChangeElement(Int32 dayOfMonth, String dayOfWeek, String linkToDocument)
+        public ChangeElement(DateTime date, String dayOfWeek, String linkToDocument)
         {
-            DayOfMonth = dayOfMonth;
+            Date = date;
             DayOfWeek = dayOfWeek;
             LinkToDocument = linkToDocument;
         }
@@ -70,7 +70,7 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
         {
             //Реализация прямиком из Java:
             return "\n" + append + "ChangeElement: \n" +
-            append + "DayOfMonth = " + DayOfMonth + ";\n" +
+            append + "DayOfMonth = " + Date.Day + ";\n" +
             append + "LinkToDocument = " + LinkToDocument + ";\n" +
             append + "CurrentDay = " + DayOfWeek + ".\n";
         }

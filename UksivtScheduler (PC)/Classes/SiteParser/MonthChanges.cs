@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Text;
+using System.Linq;
 using System.Collections.Generic;
 
 /// <summary>
 /// Область с классом, представляющим сущность замен за месяц.
 /// </summary>
-namespace UksivtScheduler__PC_.Classes.SiteParser
+namespace UksivtScheduler_PC.Classes.SiteParser
 {
     /// <summary>
     /// Класс замен за месяц.
@@ -47,41 +48,35 @@ namespace UksivtScheduler__PC_.Classes.SiteParser
 
         #region Область: Методы.
         /// <summary>
-        /// Метод, выполняющий поиск по заменам текущего месяца и возвращающем день по указанному числу.
-        /// <br/>
-        /// Если для указанного дня замены отсутствуют, возвращает <i>"null"</i>.
-        /// </summary>
-        /// <param name="day">Число, по которому нужно искать замены.</param>
-        /// <returns>Замены на указанный день.</returns>
-        public ChangeElement TryToFindElementByNumberOfDay(Int32 day)
-        {
-            foreach (ChangeElement element in Changes)
-            {
-                if (element.DayOfMonth == day && element.CheckHavingChanges())
-                {
-                    return element;
-                }
-            }
-
-            return null;
-        }
-
-        /// <summary>
-        /// Метод, выполняющий поиск по заменам текущего месяца и возвращающем день с указанным названием дня.
+        /// Метод, выполняющий поиск по заменам текущего месяца и возвращающем день с указанным названием.
+        /// Выполняет поиск только по текущей неделе, не учитывая замены предыдущих недель.
         /// <br/>
         /// Если такой день не найден, будет возвращен <i>"null"</i>.
         /// </summary>
-        /// <param name="day">Название дня для поиска замен.</param>
+        /// <param name="day">Название дня для поиска.</param>
         /// <returns>Элемент замен с указанным днем.</returns>
-        public ChangeElement TryToFindElementByNameOfDay(String day)
+        public ChangeElement TryToFindElementByNameOfDayWithoutPreviousWeeks(String day)
         {
-            Changes.Reverse();
+            DateTime start = DateTime.Now.GetStartOfWeek().AddDays(-1);
+            DateTime end = DateTime.Now.GetEndOfWeek().AddDays(1);
 
-            foreach (ChangeElement element in Changes)
+            Changes = Changes.OrderByDescending(change => change.Date).ToList();
+
+            foreach (ChangeElement change in Changes)
             {
-                if (element.DayOfWeek.Equals(day) && element.CheckHavingChanges())
+                if (change.Date > end)
                 {
-                    return element;
+                    continue;
+                }
+
+                else if (change.Date < start)
+                {
+                    return null;
+                }
+
+                if (change.DayOfWeek.Equals(day) && change.CheckHavingChanges())
+                {
+                    return change;
                 }
             }
 

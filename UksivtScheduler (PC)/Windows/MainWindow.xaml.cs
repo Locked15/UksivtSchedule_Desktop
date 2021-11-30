@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Windows;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using UksivtScheduler_PC.Classes;
+using UksivtScheduler_PC.Classes.SiteParser;
 
 /// <summary>
 /// Область с окном выбора направления.
 /// </summary>
-namespace UksivtScheduler__PC_
+namespace UksivtScheduler_PC
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml.
@@ -29,7 +33,7 @@ namespace UksivtScheduler__PC_
         /// <param name="e">Аргументы события.</param>
         public void Main_Programming_Click(Object sender, EventArgs e)
         {
-
+            
         }
 
         /// <summary>

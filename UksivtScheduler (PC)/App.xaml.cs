@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace UksivtScheduler__PC_
+namespace UksivtScheduler_PC
 {
     /// <summary>
     /// Interaction logic for App.xaml

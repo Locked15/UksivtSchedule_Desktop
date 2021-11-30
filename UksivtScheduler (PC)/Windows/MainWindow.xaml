@@ -1,5 +1,5 @@
 ﻿<Window
-    x:Class = "UksivtScheduler__PC_.MainWindow"
+    x:Class = "UksivtScheduler_PC.MainWindow"
     xmlns = "http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x = "http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local = "using:UksivtScheduler"
