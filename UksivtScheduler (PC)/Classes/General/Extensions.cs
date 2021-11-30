@@ -3,6 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using NPOI.XWPF.UserModel;
 using UksivtScheduler_PC.Classes.SiteParser;
+using Bool = System.Boolean;
 
 /// <summary>
 /// Область с классом расширений.
@@ -14,6 +15,16 @@ namespace UksivtScheduler_PC.Classes.General
     /// </summary>
     public static class Extensions
     {
+        #region Область: Делегаты.
+        /// <summary>
+        /// Делегат, инкапсулирующий метод, нужный для проверки содержания подстроки в строке.
+        /// </summary>
+        /// <param name="value">Значение, наличие которого нужно проверить.</param>
+        /// <returns>Логическое значение, отвечающее за наличие подстроки в строке.</returns>
+        public delegate Bool Check(String value);
+        #endregion
+
+        #region Область: Методы расширения, связанные с датами.
         /// <summary>
         /// Метод расширения, позволяющий получить день по указанному индексу.
         /// </summary>
@@ -139,7 +150,7 @@ namespace UksivtScheduler_PC.Classes.General
                     throw new ArgumentException("Отправленное значение некорректно.");
             }
         }
-
+        
         /// <summary>
         /// Метод расширения, позволяющий получить дату начала недели.
         /// </summary>
@@ -168,6 +179,75 @@ namespace UksivtScheduler_PC.Classes.General
             }
 
             return time;
+        }
+        #endregion
+
+        #region Область: Методы расширений, связанные с расписанием.
+        /// <summary>
+        /// Метод расширения для получения названия подпапки ассетов из названия группы.
+        /// </summary>
+        /// <param name="groupName">Название группы.</param>
+        /// <returns>Название подпапки (префикс).</returns>
+        public static String GetPrefixFromName(this String groupName)
+        {
+            groupName = groupName.ToLower();
+            String yearEnd;
+
+            //Если сейчас второй семестр, то первый курс поступал в прошлом году.
+            if (DateTime.Now.Month <= 6)
+            {
+                yearEnd = DateTime.Now.AddYears(-1).Year.ToString()[2..];
+            }
+
+            //В ином случае, они поступили в этом году.
+            else
+            {
+                yearEnd = DateTime.Now.Year.ToString()[2..];
+            }
+ 
+            //Общеобразовательное.
+            if (groupName.Contains(yearEnd) && (!groupName.Contains("укск")))
+            {
+                return "General";
+            }
+
+            //Для красоты выделим прочие блоки в отдельную иерархию "if ... else if ... else".
+            else
+            {
+                //Для краткости записи определяем делегат:
+                Check check = (String val) => groupName.Contains(val);
+
+                //Экономика и ЗИО.
+                if (check("зио") || check("э") || check("уэ") || check("ул"))
+                {
+                    return "Economy";
+                }
+
+                //Право.
+                else if (check("пд") || check("по") || check("пса"))
+                {
+                    return "Law";
+                }
+
+                //Информатика и Программирование.
+                else if (check("п") || check("ис") || check("и") || check("веб") || 
+                check("оиб"))
+                {
+                    return "Programming";
+                }
+
+                //Вычислительная техника.
+                else if (check("кск") || check("са") || check("укск"))
+                {
+                    return "Technical";
+                }
+
+                //Выброс исключения.
+                else
+                {
+                    throw new ArgumentException("Указанная группа не обнаружена в системе.");
+                }
+            }
         }
 
         /// <summary>
@@ -214,7 +294,9 @@ namespace UksivtScheduler_PC.Classes.General
 
             return null;
         }
+        #endregion
 
+        #region Область: Методы расширений, связанные с парсом документа.
         /// <summary>
         /// Внутренний метод, нужный для конвертации нумератора в список.
         /// </summary>
@@ -231,5 +313,6 @@ namespace UksivtScheduler_PC.Classes.General
 
             return paragraphs;
         }
+        #endregion
     }
 }

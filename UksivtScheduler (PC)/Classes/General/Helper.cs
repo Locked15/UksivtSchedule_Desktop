@@ -1,5 +1,8 @@
 ﻿using System;
+using System.IO;
 using System.Net;
+using Newtonsoft.Json;
+using UksivtScheduler_PC.Classes.ScheduleElements;
 
 /// <summary>
 /// Область кода с классом-помощником.
@@ -46,6 +49,38 @@ namespace UksivtScheduler_PC.Classes.General
         #endregion
 
         #region Область: Методы.
+        /// <summary>
+        /// Метод для получения расписания группы из ассетов.
+        /// </summary>
+        /// <param name="groupName">Название группы.</param>
+        /// <returns>Оригинальное расписание группы.</returns>
+        /// <exception cref="FileNotFoundException">Указанный файл не найден.</exception>
+        /// <exception cref="IOException">При прочтении возникла ошибка.</exception>
+        public static WeekSchedule GetWeekSchedule(String groupName)
+        {
+            String prefix = groupName.GetPrefixFromName();
+
+            return GetWeekSchedule(prefix, groupName);
+        }
+
+        /// <summary>
+        /// Метод для получения расписания группы из ассетов.
+        /// </summary>
+        /// <param name="prefix">Название подпапки ассетов, где следует искать расписание.</param>
+        /// <param name="groupName">Название группы.</param>
+        /// <returns>Оригинальное расписание группы.</returns>
+        /// <exception cref="FileNotFoundException">Указанный файл не найден.</exception>
+        /// <exception cref="IOException">При прочтении возникла ошибка.</exception>
+        public static WeekSchedule GetWeekSchedule(String prefix, String groupName)
+        {
+            String fullPath = Helper.PathToAssets + '\\' + prefix + '\\' + groupName + ".json";
+
+            using (StreamReader sr1 = new(fullPath, System.Text.Encoding.Default))
+            {
+                return JsonConvert.DeserializeObject<WeekSchedule>(sr1.ReadToEnd());
+            }
+        }
+
         /// <summary>
         /// Метод для получения рабочей ссылки для скачивания файла с заменами.
         /// <br/>

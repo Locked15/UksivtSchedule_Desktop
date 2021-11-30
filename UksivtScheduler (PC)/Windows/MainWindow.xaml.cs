@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using UksivtScheduler_PC.Classes.General;
 
 /// <summary>
 /// Область с окном выбора направления.
@@ -29,7 +30,9 @@ namespace UksivtScheduler_PC
         /// <param name="e">Аргументы события.</param>
         public void Main_Programming_Click(Object sender, EventArgs e)
         {
-            
+            String prefix = "19П-5".GetPrefixFromName();
+
+            MessageBox.Show(prefix, "Полученный префикс", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         /// <summary>
