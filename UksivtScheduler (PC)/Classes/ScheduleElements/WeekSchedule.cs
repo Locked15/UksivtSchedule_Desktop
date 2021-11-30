@@ -4,7 +4,7 @@ using System.Collections.Generic;
 /// <summary>
 /// Область с классом недельного расписания.
 /// </summary>
-namespace UksivtScheduler_PC.Classes
+namespace UksivtScheduler_PC.Classes.ScheduleElements
 {
     /// <summary>
     /// Класс, представляющий сущность Расписания на неделю.

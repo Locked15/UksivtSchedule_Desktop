@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using NPOI.XWPF.UserModel;
 using UksivtScheduler_PC.Classes.SiteParser;
 
 /// <summary>
 /// Область с классом расширений.
 /// </summary>
-namespace UksivtScheduler_PC.Classes
+namespace UksivtScheduler_PC.Classes.General
 {
     /// <summary>
     /// Класс расширений.
@@ -46,6 +47,44 @@ namespace UksivtScheduler_PC.Classes
 
                 default:
                     throw new IndexOutOfRangeException($"Введен некорректный индекс ({index}).");
+            }
+        }
+
+        /// <summary>
+        /// Метод расширения, позволяющий получить индекс по названию дня.
+        /// </summary>
+        /// <param name="day">Название дня.</param>
+        /// <returns>День, соответствующий данному индексу.</returns>
+        /// <exception cref="ArgumentException">Введен некорректный день.</exception>
+        public static Int32 GetIndexByDay(this String day)
+        {
+            day = day.ToLower();
+
+            switch (day)
+            {
+                case "понедельник":
+                    return 0;
+
+                case "вторник":
+                    return 1;
+
+                case "среда":
+                    return 2;
+
+                case "четверг":
+                    return 3;
+
+                case "пятница":
+                    return 4;
+
+                case "суббота":
+                    return 5;
+
+                case "воскресенье":
+                    return 6;
+
+                default:
+                    throw new ArgumentException($"Введен некорректный день ({day}).");
             }
         }
 
@@ -176,5 +215,21 @@ namespace UksivtScheduler_PC.Classes
             return null;
         }
 
+        /// <summary>
+        /// Внутренний метод, нужный для конвертации нумератора в список.
+        /// </summary>
+        /// <param name="enumerator">Нумератор параграфов.</param>
+        /// <returns>Список, содержащий параграфы.</returns>
+        public static List<XWPFParagraph> GetParagraphs(this IEnumerator<XWPFParagraph> enumerator)
+        {
+            List<XWPFParagraph> paragraphs = new(1);
+
+            while (enumerator.MoveNext())
+            {
+                paragraphs.Add(enumerator.Current);
+            }
+
+            return paragraphs;
+        }
     }
 }

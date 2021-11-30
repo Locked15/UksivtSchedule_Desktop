@@ -3,6 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using AngleSharp;
 using AngleSharp.Dom;
+using UksivtScheduler_PC.Classes.General;
 using Bool = System.Boolean;
 
 /// <summary>

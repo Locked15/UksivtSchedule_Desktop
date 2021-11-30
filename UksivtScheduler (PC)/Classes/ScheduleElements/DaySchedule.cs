@@ -6,14 +6,14 @@ using System.Collections.Generic;
 /// <summary>
 /// Область кода с расписанием на день.
 /// </summary>
-namespace UksivtScheduler_PC.Classes
+namespace UksivtScheduler_PC.Classes.ScheduleElements
 {
     /// <summary>
     /// Класс, представляющий расписание на один день.
     /// </summary>
     public class DaySchedule
     {
-        #region Область: Поля.
+        #region Область: Свойства.
         /// <summary>
         /// Свойство, содержащее название текущего дня.
         /// </summary>
@@ -119,7 +119,7 @@ namespace UksivtScheduler_PC.Classes
         /// </summary>
         /// <param name="day">День недели для создания расписания.</param>
         /// <returns>Расписание на день для группы с практикой.</returns>
-        public static DaySchedule getOnPractiseSchedule(String day)
+        public static DaySchedule GetOnPractiseSchedule(String day)
         {
             List<Lesson> lessons = new List<Lesson>(7);
 

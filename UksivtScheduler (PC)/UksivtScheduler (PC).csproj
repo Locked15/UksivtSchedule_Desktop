@@ -9,11 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\DocumentParser\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AngleSharp" Version="0.16.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NPOI" Version="2.5.5" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@
 /// <summary>
 /// Область с классом пары.
 /// </summary>
-namespace UksivtScheduler_PC.Classes
+namespace UksivtScheduler_PC.Classes.ScheduleElements
 {
     /// <summary>
     /// Класс, представляющий сущность пары.

@@ -4,19 +4,45 @@ using System.Net;
 /// <summary>
 /// Область кода с классом-помощником.
 /// </summary>
-namespace UksivtScheduler_PC.Classes
+namespace UksivtScheduler_PC.Classes.General
 {
     /// <summary>
     /// Класс-помощник, нужный для различных задач.
     /// </summary>
     public static class Helper
     {
+        #region Область: Поля.
+        /// <summary>
+        /// Поле, содержащее путь к ассетам проекта.
+        /// </summary>
+        public static readonly String PathToAssets;
+        #endregion
+
         #region Область: Константы.
         /// <summary>
         /// Константа, содержащая шаблон для создания ссылки для скачивания файла с Google Drive.
         /// </summary>
         private const String GoogleDriveDownloadLinkTemplate =
         "https://drive.google.com/uc?export=download&id=";
+        #endregion
+
+        #region Область: Конструктор.
+        /// <summary>
+        /// Статический конструктор класса.
+        /// </summary>
+        static Helper()
+        {
+            #region Подобласть: Инициализация поля "PathToAssets".
+            String pathToProject = Environment.CurrentDirectory;
+
+            for (int i = 0; i < 3; i++)
+            {
+                pathToProject = pathToProject.Substring(0, pathToProject.LastIndexOf('\\'));
+            }
+
+            PathToAssets = pathToProject + "\\Assets";
+            #endregion
+        }
         #endregion
 
         #region Область: Методы.

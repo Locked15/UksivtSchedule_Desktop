@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Windows;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using UksivtScheduler_PC.Classes;
-using UksivtScheduler_PC.Classes.SiteParser;
 
 /// <summary>
 /// Область с окном выбора направления.
