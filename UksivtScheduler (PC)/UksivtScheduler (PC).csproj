@@ -6,12 +6,25 @@
     <RootNamespace>UksivtScheduler__PC_</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Schedule.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Schedule.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Schedule.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AngleSharp" Version="0.16.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="NPOI" Version="2.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Schedule.ico" />
   </ItemGroup>
 
 </Project>
