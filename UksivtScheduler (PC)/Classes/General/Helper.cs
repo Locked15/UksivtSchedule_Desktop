@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Net;
+using System.Linq;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using UksivtScheduler_PC.Classes.ScheduleElements;
 
@@ -49,6 +51,18 @@ namespace UksivtScheduler_PC.Classes.General
         #endregion
 
         #region Область: Методы.
+        /// <summary>
+        /// Метод для получения списка групп по указанному направлению.
+        /// </summary>
+        /// <param name="prefix">Префикс (направление) группы.</param>
+        /// <returns>Список с названиями групп.</returns>
+        public static List<String> GetGroups(String prefix)
+        {
+            List<String> toReturn = Directory.GetFiles(PathToAssets + '\\' + prefix).ToList();
+            
+            return toReturn.Select(file => file = Path.GetFileNameWithoutExtension(file)).ToList();
+        }
+
         /// <summary>
         /// Метод для получения расписания группы из ассетов.
         /// </summary>

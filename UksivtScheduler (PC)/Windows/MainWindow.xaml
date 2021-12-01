@@ -8,7 +8,8 @@
     mc:Ignorable = "d"
     MinHeight = "800" MinWidth = "800"
     Height = "800" Width = "800"
-    Title = "Расписание УКСиВТ">
+    Title = "Расписание УКСиВТ"
+    WindowStartupLocation = "CenterScreen">
     
     <!-- #region Область: Стили. -->
     <Window.Resources>
@@ -127,32 +128,32 @@
         <Button Name = "Main_Programming" Grid.Row = "3" Grid.Column = "1" Grid.ColumnSpan = "3" Background = "#393939" 
         Foreground = "White" Click = "Main_Programming_Click" Style = "{DynamicResource RoundedButton}">
             <TextBlock TextWrapping = "Wrap" Text = "Отделение Информатики и Программирования" FontSize = "24"
-            VerticalAlignment = "Center" TextAlignment = "Center"/>
+            VerticalAlignment = "Center" TextAlignment = "Center" FontFamily = "Georgia"/>
         </Button>
 
         <Button Name = "Main_ComputingTech" Grid.Row = "3" Grid.Column = "5" Grid.ColumnSpan = "3" Background = "#393939" 
         Foreground = "White" Click = "Main_ComputingTech_Click" Style = "{DynamicResource RoundedButton}">
             <TextBlock TextWrapping = "Wrap" Text = "Отделение Вычислительной техники" FontSize = "24"
-            VerticalAlignment = "Center" TextAlignment = "Center"/>
+            VerticalAlignment = "Center" TextAlignment = "Center" FontFamily = "Georgia"/>
         </Button>
 
         <Button Name = "Main_Law" Grid.Row = "5" Grid.Column = "1" Grid.ColumnSpan = "3" Background = "#393939" 
         Foreground = "White" Click = "Main_Law_Click" Style = "{DynamicResource RoundedButton}">
             <TextBlock TextWrapping = "Wrap" Text = "Отделение Права" FontSize = "24"
-            VerticalAlignment = "Center" TextAlignment = "Center"/>
+            VerticalAlignment = "Center" TextAlignment = "Center" FontFamily = "Georgia"/>
         </Button>
 
         <Button Name = "Main_Economy" Grid.Row = "5" Grid.Column = "5" Grid.ColumnSpan = "3" Background = "#393939" 
         Foreground = "White" Click = "Main_Economy_Click" Style = "{DynamicResource RoundedButton}">
             <TextBlock TextWrapping = "Wrap" Text = "Отделение Экономики и ЗИО" FontSize = "24"
-            VerticalAlignment = "Center" TextAlignment = "Center"/>
+            VerticalAlignment = "Center" TextAlignment = "Center" FontFamily = "Georgia"/>
         </Button>
 
         <Button Name = "Main_General" Grid.Row = "6" Grid.Column = "3" Grid.ColumnSpan = "3" Background = "#393939" 
         Foreground = "White" Click = "Main_General_Click" Style = "{DynamicResource RoundedButton}"
         Margin = "25">
             <TextBlock TextWrapping = "Wrap" Text = "Общеобразовательное отделение" FontSize = "24"
-            VerticalAlignment = "Center" TextAlignment = "Center"/>
+            VerticalAlignment = "Center" TextAlignment = "Center" FontFamily = "Georgia"/>
         </Button>
         <!-- #endregion -->
     </Grid>
