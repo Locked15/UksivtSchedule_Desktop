@@ -10,11 +10,13 @@ namespace UksivtScheduler_PC
     /// <summary>
     /// Вот и оно... С днем рождения!
     /// <br/><br/>
-    /// <strong><i>Uksivt... is this place where you want to be?
+    /// <strong><i>4 years at Uksivt!
+    /// <br/>
+    /// Is this place where you want to be?
     /// <br/>
     /// I just... don't get it.
     /// <br/>
-    /// 4 years at uksivt!</i></strong>
+    /// Why do you want to stay?</i></strong>
     /// </summary>
     public partial class MainWindow : Window
     {
