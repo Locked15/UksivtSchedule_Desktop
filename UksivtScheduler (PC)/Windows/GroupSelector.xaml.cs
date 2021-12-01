@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UksivtScheduler_PC.Controls;
 using UksivtScheduler_PC.Listeners;
 using UksivtScheduler_PC.Classes.General;
+using Bool = System.Boolean;
 
 namespace UksivtScheduler_PC.Windows
 {
@@ -17,6 +18,11 @@ namespace UksivtScheduler_PC.Windows
         /// Внутреннее поле, содержащее префикс нужной группы.
         /// </summary>
         private String prefix;
+
+        /// <summary>
+        /// Внутреннее поле, отвечающее за то, что вызвало закрытие окна.
+        /// </summary>
+        private Bool returnBack = false;
 
         /// <summary>
         /// Внутреннее поле, содержащее список с названиями групп.
@@ -55,6 +61,8 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="e">Аргументы события.</param>
         public void GoBackClick(Object sender, EventArgs e)
         {
+            returnBack = true;
+
             Parent.Show();
             Close();
         }
@@ -82,7 +90,10 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="e">Аргументы события.</param>
         private void Window_Closed(Object sender, EventArgs e)
         {
-            Parent.Close();
+            if (!returnBack)
+            {
+                Parent.Close();
+            }
         }
         #endregion
 

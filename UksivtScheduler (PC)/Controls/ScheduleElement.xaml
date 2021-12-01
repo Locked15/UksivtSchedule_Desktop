@@ -28,17 +28,17 @@
         TextAlignment  =  "Center" Text = "№ ???"/>
 
         <!-- Название пары. -->
-        <TextBlock Name = "ScheduleElement_Name" Grid.Row = "1" Grid.Column = "0" FontSize = "16"
+        <TextBlock Name = "ScheduleElement_Name" Grid.Row = "1" Grid.Column = "0" FontSize = "26"
         FontFamily = "Georgia" TextWrapping = "Wrap" VerticalAlignment = "Center" TextAlignment = "Left"
         Text = "Example Lesson." FontStyle = "Italic"/>
 
         <!-- Место проведения пары. -->
-        <TextBlock Name = "ScheduleElement_Place" Grid.Row = "1" Grid.Column = "1" FontSize = "16"
+        <TextBlock Name = "ScheduleElement_Place" Grid.Row = "1" Grid.Column = "1" FontSize = "26"
         FontFamily = "Georgia" TextWrapping = "Wrap" VerticalAlignment = "Center" TextAlignment = "Right"
         Text = "Example Place."/>
         
         <!-- Преподаватель. -->
-        <TextBlock Name = "ScheduleElement_Teacher" Grid.Row = "2" Grid.Column = "0" Grid.ColumnSpan = "2" FontSize = "16"
+        <TextBlock Name = "ScheduleElement_Teacher" Grid.Row = "2" Grid.Column = "0" Grid.ColumnSpan = "2" FontSize = "26"
         FontFamily = "Georgia" TextWrapping = "Wrap" VerticalAlignment = "Center" TextAlignment = "Center"
         Text = "Example Teacher." FontWeight = "Bold"/>
     </Grid>

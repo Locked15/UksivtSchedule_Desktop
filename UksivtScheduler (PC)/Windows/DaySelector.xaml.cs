@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using Bool = System.Boolean;
 
 /// <summary>
 /// Область кода с выбором дня.
@@ -21,6 +22,11 @@ namespace UksivtScheduler_PC.Windows
         /// Внутреннее поле, содержащее название группы.
         /// </summary>
         private String groupName;
+
+        /// <summary>
+        /// Внутреннее поле, отвечающее за то, что вызвало закрытие окна.
+        /// </summary>
+        private Bool returnBack = false;
         #endregion
 
         #region Область: Свойства.
@@ -144,6 +150,8 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="e">Аргументы события.</param>
         public void GoBackClick(Object sender, EventArgs e)
         {
+            returnBack = true;
+
             Parent.Show();
             Close();
         }
@@ -157,8 +165,11 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="e">Аргументы события.</param>
         private void Window_Closed(Object sender, EventArgs e)
         {
-            Parent.Parent.Close();
-            Parent.Close();
+            if (!returnBack)
+            {
+                Parent.Parent.Close();
+                Parent.Close();
+            }
         }
         #endregion
         #endregion

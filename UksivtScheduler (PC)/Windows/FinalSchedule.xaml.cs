@@ -7,6 +7,7 @@ using UksivtScheduler_PC.Classes.General;
 using UksivtScheduler_PC.Classes.SiteParser;
 using UksivtScheduler_PC.Classes.DocumentParser;
 using UksivtScheduler_PC.Classes.ScheduleElements;
+using Bool = System.Boolean;
 
 /// <summary>
 /// Область кода с окном вывода расписания.
@@ -33,6 +34,11 @@ namespace UksivtScheduler_PC.Windows
         /// Поле, содержащее родительское окно для данного окна.
         /// </summary>
         private DaySelector parent;
+
+        /// <summary>
+        /// Поле, содержащее значение, определяющее субъект, вызывающий закрытие окна.
+        /// </summary>
+        private Bool returnBack = false;
         #endregion
 
         #region Область: Конструктор.
@@ -62,6 +68,8 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="e">Аргументы события.</param>
         public void GoBackClick(Object sender, EventArgs e)
         {
+            returnBack = true;
+
             parent.Show();
             Close();
         }
@@ -75,9 +83,12 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="e">Аргументы события.</param>
         private void Window_Closed(Object sender, EventArgs e)
         {
-            parent.Parent.Parent.Close();
-            parent.Parent.Close();
-            parent.Close();
+            if (!returnBack)
+            {
+                parent.Parent.Parent.Close();
+                parent.Parent.Close();
+                parent.Close();
+            }
         }
         #endregion
 
@@ -93,14 +104,27 @@ namespace UksivtScheduler_PC.Windows
             //Получаем оригинальное расписание:
             originalSchedule = Helper.GetWeekSchedule(prefix, group).Days[day.GetIndexByDay()];
 
+            //Устанавливаем заголовок и тайтл:
+            Title += " — " + day;
+            Schedule_Header.Content += $" {day}.";
+
             //Операции занимают много времени, выносим в отдельный поток:
-            await Task.Run(() =>
+            await Task.Run(async () =>
             {
+                await Task.Run(() =>
+                {
+                    Dispatcher.BeginInvoke(() =>
+                    {
+                        MessageBox.Show("Начато получение данных.\nЭто может занять некоторое время.", "Уведомление",
+                        MessageBoxButton.OK, MessageBoxImage.Information);
+                    });
+                });
+
                 //Парсим сайт и получаем нужный элемент:
                 Parser parse = new Parser();
                 ChangeElement change = parse.ParseAvailableNodes().TryToFindElementByNameOfDayWithoutPreviousWeeks(day);
 
-                if (change.CheckHavingChanges())
+                if (change != null && change.CheckHavingChanges())
                 {
                     //Парсим файл с заменами и получаем измененное расписание:
                     String url = Helper.GetDownloadableFileLink(change.LinkToDocument);
