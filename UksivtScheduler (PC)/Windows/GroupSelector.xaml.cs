@@ -19,14 +19,16 @@ namespace UksivtScheduler_PC.Windows
         private String prefix;
 
         /// <summary>
-        /// Внутреннее поле, содержащее родительское окно.
-        /// </summary>
-        private MainWindow parent;
-
-        /// <summary>
         /// Внутреннее поле, содержащее список с названиями групп.
         /// </summary>
         private List<String> groupNames = new(10);
+        #endregion
+
+        #region Область: Свойства.
+        /// <summary>
+        /// Свойство, содержащее родительское окно данного окна.
+        /// </summary>
+        public MainWindow Parent { get; init; }
         #endregion
 
         #region Область: Конструктор.
@@ -36,7 +38,7 @@ namespace UksivtScheduler_PC.Windows
         public GroupSelector(String prefix, MainWindow main)
         {
             this.prefix = prefix;
-            parent = main;
+            Parent = main;
 
             InitializeComponent();
             InitializeFields();
@@ -53,7 +55,7 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="e">Аргументы события.</param>
         public void GoBackClick(Object sender, EventArgs e)
         {
-            parent.Show();
+            Parent.Show();
             Close();
         }
 
@@ -65,7 +67,22 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="name">Название группы.</param>
         public void GroupIsClicked(String name)
         {
-            MessageBox.Show($"Выбрано: {name}.");
+            DaySelector newWindow = new DaySelector(prefix, name, this);
+
+            newWindow.Show();
+            Hide();
+        }
+
+        /// <summary>
+        /// Событие, происходящее при закрытии окна.
+        /// <br/>
+        /// Нужно для освобождения памяти.
+        /// </summary>
+        /// <param name="sender">Объект, вызвавший событие.</param>
+        /// <param name="e">Аргументы события.</param>
+        private void Window_Closed(Object sender, EventArgs e)
+        {
+            Parent.Close();
         }
         #endregion
 

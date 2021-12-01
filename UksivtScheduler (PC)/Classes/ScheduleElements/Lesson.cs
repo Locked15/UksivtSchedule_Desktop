@@ -1,4 +1,5 @@
 ﻿using System;
+using Bool = System.Boolean;
 
 /// <summary>
 /// Область с классом пары.
@@ -66,6 +67,17 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
             Name = name;
             Teacher = teacher;
             Place = place;
+        }
+        #endregion
+
+        #region Область: Методы.
+        /// <summary>
+        /// Метод для проверки пары на полноту (наличие самой пары).
+        /// </summary>
+        /// <returns>Логическое значение, отвечающее за полноту.</returns>
+        public Bool CheckHaveValue()
+        {
+            return Name != null;
         }
         #endregion
     }

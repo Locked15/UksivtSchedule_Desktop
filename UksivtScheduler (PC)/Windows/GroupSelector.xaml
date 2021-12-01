@@ -8,7 +8,8 @@
         Title = "Расписание УКСиВТ" 
         MinHeight = "500" MinWidth = "700"
         Padding = "10"
-        WindowStartupLocation = "CenterScreen">
+        WindowStartupLocation = "CenterScreen"
+        Closed = "Window_Closed">
 
     <!-- #region Область: Стили. -->
     <Window.Resources>
