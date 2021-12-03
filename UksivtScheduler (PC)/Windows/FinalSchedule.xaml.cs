@@ -101,6 +101,9 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="day">День для получения расписания.</param>
         private async void InitizlizeFields(String prefix, String group, String day)
         {
+            //Создаем экземпляр диалогового окна для вывода информации:
+            MessageWindow message = new MessageWindow();
+
             //Получаем оригинальное расписание:
             originalSchedule = Helper.GetWeekSchedule(prefix, group).Days[day.GetIndexByDay()];
 
@@ -111,12 +114,15 @@ namespace UksivtScheduler_PC.Windows
             //Операции занимают много времени, выносим в отдельный поток:
             await Task.Run(async () =>
             {
+                originalSchedule.Lessons.RemoveAll(lesson => !lesson.CheckHaveValue());
+                InsertData(originalSchedule);
+
                 await Task.Run(() =>
                 {
                     Dispatcher.BeginInvoke(() =>
                     {
-                        MessageBox.Show("Начато получение данных.\nЭто может занять некоторое время.", "Уведомление",
-                        MessageBoxButton.OK, MessageBoxImage.Information);
+                        message = new MessageWindow("Уведомление", "Начато получение данных.\nЭто может занять некоторое время.");
+                        message.ShowDialog();
                     });
                 });
 
@@ -131,20 +137,29 @@ namespace UksivtScheduler_PC.Windows
                     ChangesReader reader = new ChangesReader(Helper.DownloadFileFromURL(url));
                     scheduleWithChanges = reader.GetDayScheduleWithChanges(day, group, originalSchedule);
 
-                    scheduleWithChanges.Lessons.RemoveAll(lesson => !lesson.CheckHaveValue());
+                    await Task.Run(() =>
+                    {
+                        Dispatcher.BeginInvoke(() =>
+                        {
+                            message.Close();
 
+                            message = new MessageWindow("Уведомление", "Получены данные замен.");
+                            message.ShowDialog();
+                        });
+                    });
+
+                    scheduleWithChanges.Lessons.RemoveAll(lesson => !lesson.CheckHaveValue());
                     InsertData(scheduleWithChanges);
                 }
 
                 else
                 {
-                    originalSchedule.Lessons.RemoveAll(lesson => !lesson.CheckHaveValue());
-
-                    InsertData(originalSchedule);
-
                     Dispatcher.Invoke(() =>
                     {
-                        MessageBox.Show("Замены для текущего дня не обнаружены.", "Информация", MessageBoxButton.OK, MessageBoxImage.Information);
+                        message.Close();
+
+                        message = new MessageWindow("Уведомление", "Данные замен не обнаружены.\nОтображено оригинальное расписание.");
+                        message.ShowDialog();
                     });
                 }
             });
@@ -156,6 +171,12 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="schedule">Расписание для вставки в таблицу.</param>
         private void InsertData(DaySchedule schedule)
         {
+            //Для очистки списка элементов в другом потоке тоже нужен "Dispatcher".
+            Dispatcher.Invoke(() =>
+            {
+                Schedule_LessonsList.Items.Clear();
+            });
+
             /* Операция выполняется в отдельном потоке, ...
                ... поэтому операции с UI проводятся через "Dispatcher". */
             foreach (Lesson lesson in schedule.Lessons)
