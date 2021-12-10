@@ -85,9 +85,7 @@ namespace UksivtScheduler_PC.Windows
         {
             if (!returnBack)
             {
-                parent.Parent.Parent.Close();
-                parent.Parent.Close();
-                parent.Close();
+                Application.Current.Shutdown();
             }
         }
         #endregion
