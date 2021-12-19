@@ -152,6 +152,10 @@ namespace UksivtScheduler_PC.Classes.DocumentParser
                                ... а второй — для добавления данных в результат.                */
                             String text = cell.GetText();
                             String lowerText = text.ToLower();
+
+                            //Иногда вместо тире стоит нижнее подчеркивание, обрабатываем случай:
+                            text = text.Replace('_', '-');
+                            lowerText = lowerText.Replace('_', '-');
                            
                             /* Перед выполнением всех остальных проверок, необходимо ...
                                ... выполнить проверку на пустое содержимое ячейки:       */
