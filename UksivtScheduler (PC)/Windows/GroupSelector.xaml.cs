@@ -109,7 +109,7 @@ namespace UksivtScheduler_PC.Windows
         }
 
         /// <summary>
-        /// Метод для элементов в список.
+        /// Метод для добавления элементов в список.
         /// </summary>
         private void InsertDataToList()
         {
