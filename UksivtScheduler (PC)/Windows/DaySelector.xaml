@@ -6,11 +6,12 @@
         xmlns:local = "clr-namespace:UksivtScheduler_PC.Windows"
         mc:Ignorable = "d"
         Title = "Расписание УКСиВТ" 
+        Height = "620" Width = "520"
         MinHeight = "600" MinWidth = "500"
         WindowStartupLocation = "CenterScreen"
         Closed = "Window_Closed">
 
-    <Grid>
+    <Grid Margin = "5">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width = "40*"/>
             <ColumnDefinition Width = "50*"/>

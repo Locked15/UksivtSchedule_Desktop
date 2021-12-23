@@ -13,6 +13,8 @@ using Bool = System.Boolean;
 /// </summary>
 namespace UksivtScheduler_PC.Classes.DocumentParser
 {
+    //TODO Сделать поддержку "Ликвидации задолженностей" (Пример: Замены на 24.12.2021). 
+
     /// <summary>
     /// Класс, содержащий логику, нужную для работы с документом с заменами.
     /// </summary>
