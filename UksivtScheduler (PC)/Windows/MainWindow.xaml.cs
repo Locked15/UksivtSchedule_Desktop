@@ -9,7 +9,9 @@ namespace UksivtScheduler_PC
 {
     /// <summary>
     /// Вот и оно... С днем рождения!
-    /// <br/><br/>
+    /// <br/>
+    /// —————————————————————————————————————
+    /// <br/>
     /// <strong><i>4 years at Uksivt!
     /// <br/>
     /// Is this place where you want to be?
@@ -17,6 +19,14 @@ namespace UksivtScheduler_PC
     /// I just... don't get it.
     /// <br/>
     /// Why do you want to stay?</i></strong>
+    /// <br/>
+    /// —————————————————————————————————————
+    /// <br/>
+    /// <strong><i>Happy New Year!
+    /// <br/>
+    /// Happy New Year!
+    /// <br/>
+    /// Happy New 2022 Year!</i></strong>
     /// </summary>
     public partial class MainWindow : Window
     {
