@@ -109,7 +109,7 @@ namespace UksivtScheduler_PC
         /// <param name="prefix">Префикс группы.</param>
         private void CreateWindow(String prefix)
         {
-            GroupSelector newWindow = new GroupSelector(prefix, this);
+            SubFolderSelection newWindow = new(prefix, this);
 
             newWindow.Show();
             Hide();

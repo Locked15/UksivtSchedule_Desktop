@@ -1,0 +1,340 @@
+{
+  "groupName": "21ПСА-6",
+  "days": [
+    {
+      "day": "Monday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": "Право",
+          "teacher": "Исхакова С. И.",
+          "place": "318"
+        },
+        {
+          "number": 4,
+          "name": "История",
+          "teacher": "Галлямов Р. Р.",
+          "place": "318"
+        },
+        {
+          "number": 5,
+          "name": "История (1 Группа)",
+          "teacher": "Галлямов Р. Р.",
+          "place": "318"
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": "Русский",
+          "teacher": "Мустакимова И. М.",
+          "place": "318"
+        },
+        {
+          "number": 4,
+          "name": "Математика",
+          "teacher": null,
+          "place": "318"
+        },
+        {
+          "number": 5,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": "Астрономия",
+          "teacher": "Сыртланова Л. А.",
+          "place": "329"
+        },
+        {
+          "number": 4,
+          "name": "Математика",
+          "teacher": null,
+          "place": "329"
+        },
+        {
+          "number": 5,
+          "name": "Математика",
+          "teacher": null,
+          "place": "329"
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": "География",
+          "teacher": null,
+          "place": "312"
+        },
+        {
+          "number": 2,
+          "name": "Общество",
+          "teacher": "Анастасьев А. Г.",
+          "place": "312"
+        },
+        {
+          "number": 3,
+          "name": "Информатика",
+          "teacher": null,
+          "place": "312"
+        },
+        {
+          "number": 4,
+          "name": "Физ-Ра (2 Группа)",
+          "teacher": "Гильманов Р. А.",
+          "place": null
+        },
+        {
+          "number": 5,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": "Ин. Яз. (1 Группа)",
+          "teacher": "Сорокина Э. Г.",
+          "place": "325"
+        },
+        {
+          "number": 3,
+          "name": "Лит-Ра (2 Группа)",
+          "teacher": "Мустакимова И. М.",
+          "place": "325"
+        },
+        {
+          "number": 4,
+          "name": "Ин. Яз.",
+          "teacher": "Сорокина Э. Г.",
+          "place": "325"
+        },
+        {
+          "number": 5,
+          "name": "Баш. Яз.",
+          "teacher": "Юмагулова Г. К.",
+          "place": "325"
+        },
+        {
+          "number": 6,
+          "name": "Физ-Ра",
+          "teacher": "Гильманов Р. А.",
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": "ОБЖ",
+          "teacher": "Кобелева С. В.",
+          "place": "110"
+        },
+        {
+          "number": 1,
+          "name": "Экономика",
+          "teacher": "Антипина А. В.",
+          "place": "110"
+        },
+        {
+          "number": 2,
+          "name": "Лит-Ра",
+          "teacher": "Мустакимова И. М.",
+          "place": "110"
+        },
+        {
+          "number": 3,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 4,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 5,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 4,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 5,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    }
+  ]
+}

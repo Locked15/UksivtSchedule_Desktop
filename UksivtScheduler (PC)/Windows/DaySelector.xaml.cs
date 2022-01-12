@@ -19,6 +19,11 @@ namespace UksivtScheduler_PC.Windows
         private String prefix;
 
         /// <summary>
+        /// Внутреннее поле, содержащее папку с принадлежностью нужной группы.
+        /// </summary>
+        private String subFolder;
+
+        /// <summary>
         /// Внутреннее поле, содержащее название группы.
         /// </summary>
         private String groupName;
@@ -33,7 +38,7 @@ namespace UksivtScheduler_PC.Windows
         /// <summary>
         /// Свойство, содержащее родительское окно данного окна.
         /// </summary>
-        public GroupSelector Parent { get; init; }
+        public new GroupSelector Parent { get; init; }
         #endregion
 
         #region Область: Конструктор класса.
@@ -43,9 +48,10 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="prefix">Префикс группы.</param>
         /// <param name="groupName">Название группы.</param>
         /// <param name="parent">Родительское окно.</param>
-        public DaySelector(String prefix, String groupName, GroupSelector parent)
+        public DaySelector(String prefix, String subFolder, String groupName, GroupSelector parent)
         {
             this.prefix = prefix;
+            this.subFolder = subFolder;
             this.groupName = groupName;
             Parent = parent;
 
@@ -180,7 +186,7 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="day">День для которого нужно получить расписание.</param>
         private void CreateNewWindow(String day)
         {
-            FinalSchedule newWindow = new FinalSchedule(prefix, groupName, day, this);
+            FinalSchedule newWindow = new(prefix, subFolder, groupName, day, this);
 
             newWindow.Show();
             Hide();

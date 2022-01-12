@@ -46,15 +46,16 @@ namespace UksivtScheduler_PC.Windows
         /// Конструктор класса.
         /// </summary>
         /// <param name="prefix">Префикс группы.</param>
+        /// <param name="subFolder">Принадлежность группы.</param>
         /// <param name="group">Название группы.</param>
         /// <param name="day">День для получения расписания.</param>
         /// <param name="parent">Родительское окно.</param>
-        public FinalSchedule(String prefix, String group, String day, DaySelector parent)
+        public FinalSchedule(String prefix, String subFolder, String group, String day, DaySelector parent)
         {
             this.parent = parent;
 
             InitializeComponent();
-            InitizlizeFields(prefix, group, day);
+            InitizlizeFields(prefix, subFolder, group, day);
         }
         #endregion
 
@@ -95,15 +96,16 @@ namespace UksivtScheduler_PC.Windows
         /// Метод для инициализации полей.
         /// </summary>
         /// <param name="prefix">Префикс группы.</param>
+        /// <param name="subFolder">Принадлежность группы.</param>
         /// <param name="group">Название группы.</param>
         /// <param name="day">День для получения расписания.</param>
-        private async void InitizlizeFields(String prefix, String group, String day)
+        private async void InitizlizeFields(String prefix, String subFolder, String group, String day)
         {
             //Создаем экземпляр диалогового окна для вывода информации:
             MessageWindow message = new MessageWindow();
 
             //Получаем оригинальное расписание:
-            originalSchedule = Helper.GetWeekSchedule(prefix, group).Days[day.GetIndexByDay()];
+            originalSchedule = Helper.GetWeekSchedule(prefix, subFolder, group).Days[day.GetIndexByDay()];
 
             //Устанавливаем заголовок и тайтл:
             Title += " — " + day;

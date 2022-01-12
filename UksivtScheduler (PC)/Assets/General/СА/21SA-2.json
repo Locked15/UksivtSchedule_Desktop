@@ -1,0 +1,346 @@
+{
+  "groupName": "21СА-2",
+  "days": [
+    {
+      "day": "Monday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": "История",
+          "teacher": "Гумерова Э. Г.",
+          "place": "320"
+        },
+        {
+          "number": 3,
+          "name": "Химия",
+          "teacher": "Гареева С. Т.",
+          "place": "320"
+        },
+        {
+          "number": 4,
+          "name": "Математика",
+          "teacher": "Гарипова Р. М.",
+          "place": "320"
+        },
+        {
+          "number": 5,
+          "name": "Физика",
+          "teacher": "Нагаев Р. А.",
+          "place": "320"
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": "Баш. Яз.",
+          "teacher": "Хисамутдинова Р. М.",
+          "place": "320"
+        },
+        {
+          "number": 1,
+          "name": "География",
+          "teacher": null,
+          "place": "320"
+        },
+        {
+          "number": 2,
+          "name": "Математика",
+          "teacher": "Гарипова Р. М.",
+          "place": "320"
+        },
+        {
+          "number": 3,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 4,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 5,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": "Физика",
+          "teacher": "Нагаев Р. А.",
+          "place": "320"
+        },
+        {
+          "number": 1,
+          "name": "Общество",
+          "teacher": "Исмагилова Г. М.",
+          "place": "320"
+        },
+        {
+          "number": 2,
+          "name": "Информатика",
+          "teacher": "Васильева А. А.",
+          "place": "320"
+        },
+        {
+          "number": 3,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 4,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 5,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": "Математика",
+          "teacher": "Гарипова Р. М.",
+          "place": "320"
+        },
+        {
+          "number": 4,
+          "name": "Ин. Яз. (1 Группа)",
+          "teacher": "Ахметова А. М.",
+          "place": "320"
+        },
+        {
+          "number": 4,
+          "name": "Русский (2 Группа)",
+          "teacher": "Абдульманова А. С.",
+          "place": "320"
+        },
+        {
+          "number": 5,
+          "name": "Физ-Ра",
+          "teacher": "Баранов А. В.",
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": "ОБЖ",
+          "teacher": "Кобелева С. В.",
+          "place": "320"
+        },
+        {
+          "number": 2,
+          "name": "История (1 Группа)",
+          "teacher": "Гумерова Э. Г.",
+          "place": "320"
+        },
+        {
+          "number": 2,
+          "name": "Физ-Ра (2 Группа)",
+          "teacher": "Баранов А. В.",
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 4,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 5,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": "Русский",
+          "teacher": "Абдульманова А. С.",
+          "place": "320"
+        },
+        {
+          "number": 4,
+          "name": "Ин. Яз.",
+          "teacher": "Ахметова А. М.",
+          "place": "320"
+        },
+        {
+          "number": 5,
+          "name": "Лит-Ра",
+          "teacher": "Абдульманова А. С.",
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "lessons": [
+        {
+          "number": 0,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 1,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 2,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 3,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 4,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 5,
+          "name": null,
+          "teacher": null,
+          "place": null
+        },
+        {
+          "number": 6,
+          "name": null,
+          "teacher": null,
+          "place": null
+        }
+      ]
+    }
+  ]
+}

@@ -37,7 +37,7 @@ namespace UksivtScheduler_PC.Controls
         /// <summary>
         /// Свойство, содержащее сущность реализующую данный интерфейс.
         /// </summary>
-        public IGroupItemListener Listener { get; init; }
+        public IListItemClickListener Listener { get; init; }
         #endregion
 
         #region Область: Конструкторы.
@@ -47,7 +47,7 @@ namespace UksivtScheduler_PC.Controls
         /// Из-за отсутствия данных делает элементы невидимыми.
         /// </summary>
         /// <param name="listener">Реализация интерфейса.</param>
-        public GroupItem(IGroupItemListener listener)
+        public GroupItem(IListItemClickListener listener)
         {
             InitializeComponent();
             InitializeFields();
@@ -62,7 +62,7 @@ namespace UksivtScheduler_PC.Controls
         /// </summary>
         /// <param name="firstGroup">Название первой группы.</param>
         /// <param name="listener">Реализация интерфейса.</param>
-        public GroupItem(String firstGroup, IGroupItemListener listener)
+        public GroupItem(String firstGroup, IListItemClickListener listener)
         {
             InitializeComponent();
             InitializeFields();
@@ -79,7 +79,7 @@ namespace UksivtScheduler_PC.Controls
         /// </summary>
         /// <param name="firstGroup">Название первой группы.</param>
         /// <param name="listener">Реализация интерфейса.</param>
-        public GroupItem(String firstGroup, String secondGroup, IGroupItemListener listener)
+        public GroupItem(String firstGroup, String secondGroup, IListItemClickListener listener)
         {
             InitializeComponent();
             InitializeFields();
@@ -97,7 +97,7 @@ namespace UksivtScheduler_PC.Controls
         /// </summary>
         /// <param name="firstGroup">Название первой группы.</param>
         /// <param name="listener">Реализация интерфейса.</param>
-        public GroupItem(String firstGroup, String secondGroup, String thirdGroup, IGroupItemListener listener)
+        public GroupItem(String firstGroup, String secondGroup, String thirdGroup, IListItemClickListener listener)
         {
             InitializeComponent();
             InitializeFields();
@@ -127,7 +127,7 @@ namespace UksivtScheduler_PC.Controls
             //На всякий случай делаем проверку:
             if (Listener != null && text != null)
             {
-                Listener.GroupIsClicked(text.Text);
+                Listener.ItemIsClicked(text.Text);
             }
         }
         #endregion

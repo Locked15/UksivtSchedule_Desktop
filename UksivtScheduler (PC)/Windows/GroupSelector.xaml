@@ -3,7 +3,6 @@
         xmlns:x = "http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d = "http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc = "http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local = "clr-namespace:UksivtScheduler_PC.Windows"
         mc:Ignorable = "d"
         Title = "Расписание УКСиВТ" 
         MinHeight = "500" MinWidth = "700"
@@ -30,7 +29,7 @@
 
         <!-- Заполнять список будем UserControl без привязок, так что ничего здесь не предопределяем. -->
         <ListView Name = "GroupSelector_GroupList" Grid.Row = "1" Grid.Column = "0" Grid.ColumnSpan="3" 
-        HorizontalContentAlignment="Stretch"/>
+        HorizontalContentAlignment = "Stretch"/>
 
         <Button Name = "GroupSelector_GoBack" Grid.Row = "2" Grid.Column = "1" Background = "#393939" Margin = "10"
         Content = "Назад" Foreground = "White" FontFamily = "Georgia" FontSize = "26" Click = "GoBackClick"

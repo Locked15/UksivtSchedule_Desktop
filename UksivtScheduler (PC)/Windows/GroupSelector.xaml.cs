@@ -11,13 +11,18 @@ namespace UksivtScheduler_PC.Windows
     /// <summary>
     /// Логика взаимодействия для GroupSelector.xaml.
     /// </summary>
-    public partial class GroupSelector : Window, IGroupItemListener
+    public partial class GroupSelector : Window, IListItemClickListener
     {
         #region Область: Поля.
         /// <summary>
         /// Внутреннее поле, содержащее префикс нужной группы.
         /// </summary>
         private String prefix;
+
+        /// <summary>
+        /// Внутреннее поле, содержащее папку принадлежности нужной группы.
+        /// </summary>
+        private String subFolder;
 
         /// <summary>
         /// Внутреннее поле, отвечающее за то, что вызвало закрытие окна.
@@ -34,16 +39,17 @@ namespace UksivtScheduler_PC.Windows
         /// <summary>
         /// Свойство, содержащее родительское окно данного окна.
         /// </summary>
-        public MainWindow Parent { get; init; }
+        public new SubFolderSelection Parent { get; init; }
         #endregion
 
         #region Область: Конструктор.
         /// <summary>
         /// Конструктор класса.
         /// </summary>
-        public GroupSelector(String prefix, MainWindow main)
+        public GroupSelector(String prefix, String subFolder, SubFolderSelection main)
         {
             this.prefix = prefix;
+            this.subFolder = subFolder;
             Parent = main;
 
             InitializeComponent();
@@ -73,9 +79,9 @@ namespace UksivtScheduler_PC.Windows
         /// Нужна для получения названия группы из нажатой кнопки.
         /// </summary>
         /// <param name="name">Название группы.</param>
-        public void GroupIsClicked(String name)
+        public void ItemIsClicked(String name)
         {
-            DaySelector newWindow = new DaySelector(prefix, name, this);
+            DaySelector newWindow = new(prefix, subFolder, name, this);
 
             newWindow.Show();
             Hide();
@@ -103,7 +109,7 @@ namespace UksivtScheduler_PC.Windows
         /// </summary>
         private void InitializeFields()
         {
-            groupNames = Helper.GetGroups(prefix);
+            groupNames = Helper.GetGroups(prefix, subFolder);
 
             InsertDataToList();
         }
