@@ -68,7 +68,8 @@ namespace UksivtScheduler_PC.Classes.General
         /// <returns>День, соответствующий данному индексу.</returns>
         /// <exception cref="ArgumentException">Введен некорректный день.</exception>
         public static Int32 GetIndexByDay(this String day)
-        {
+        {           
+            day = day.GetTranslatedDay();
             day = day.ToLower();
 
             switch (day)
@@ -96,6 +97,38 @@ namespace UksivtScheduler_PC.Classes.General
 
                 default:
                     throw new ArgumentException($"Введен некорректный день ({day}).");
+            }
+        }
+
+        public static String GetTranslatedDay(this String day)
+        {
+            day = day.ToLower();
+
+            switch (day)
+            {
+                case "monday":
+                    return "Понедельник";
+
+                case "tuesday":
+                    return "Вторник";
+
+                case "wednesday":
+                    return "Среда";
+
+                case "thursday":
+                    return "Четверг";
+
+                case "friday":
+                    return "Пятница";
+
+                case "saturday":
+                    return "Суббота";
+
+                case "sunday":
+                    return "Воскресенье";
+
+                default:
+                    return day;
             }
         }
 

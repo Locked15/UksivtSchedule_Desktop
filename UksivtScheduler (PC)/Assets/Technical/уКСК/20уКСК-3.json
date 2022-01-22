@@ -212,15 +212,27 @@
         },
         {
           "number": 3,
-          "name": "Прикл. эл. / ОСИС",
-          "teacher": "Лихарев И. А. / Поглазов К. Ю.",
-          "place": "001 / 13"
+          "name": "Прикл. эл. (1 Группа)",
+          "teacher": "Лихарев И. А.",
+          "place": "001"
+        },
+        {
+          "number": 3,
+          "name": "ОСИС (2 Группа)",
+          "teacher": "Поглазов К. Ю.",
+          "place": "13"
         },
         {
           "number": 4,
-          "name": "ОСИС / Прикл. эл.",
-          "teacher": "Поглазов К. Ю. / Лихарев И. А.",
-          "place": "13 / 001"
+          "name": "ОСИС (1 Группа)",
+          "teacher": "Поглазов К. Ю.",
+          "place": "13"
+        },
+        {
+          "number": 4,
+          "name": "Прикл. эл. (2 Группа)",
+          "teacher": "Лихарев И. А.",
+          "place": "001"
         },
         {
           "number": 5,
@@ -274,53 +286,6 @@
           "name": "ОАИП (2 Группа)",
           "teacher": "Хасипов Р. Х.",
           "place": "1"
-        },
-        {
-          "number": 6,
-          "name": null,
-          "teacher": null,
-          "place": null
-        }
-      ]
-    },
-    {
-      "day": "Sunday",
-      "lessons": [
-        {
-          "number": 0,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 1,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 2,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 3,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 4,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 5,
-          "name": null,
-          "teacher": null,
-          "place": null
         },
         {
           "number": 6,

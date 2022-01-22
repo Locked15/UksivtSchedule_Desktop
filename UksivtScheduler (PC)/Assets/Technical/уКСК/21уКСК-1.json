@@ -30,7 +30,7 @@
         },
         {
           "number": 4,
-          "name": "Электротех. Измерения (1 Группа) /-",
+          "name": "Электротех. Измерения (1 Группа)",
           "teacher": "Ларионова Е. В.",
           "place": "11"
         },
@@ -118,7 +118,7 @@
         },
         {
           "number": 3,
-          "name": "ИТ (1 Группа) /-",
+          "name": "ИТ (1 Группа)",
           "teacher": "Хасанова А. М.",
           "place": "11"
         },
@@ -130,7 +130,7 @@
         },
         {
           "number": 5,
-          "name": "ИТ (2 Группа) /-",
+          "name": "ИТ (2 Группа)",
           "teacher": "Хасанова А. М.",
           "place": "11"
         },
@@ -250,53 +250,6 @@
           "name": "НЭРТО",
           "teacher": "Кувшинников А. М.",
           "place": "3"
-        },
-        {
-          "number": 2,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 3,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 4,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 5,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 6,
-          "name": null,
-          "teacher": null,
-          "place": null
-        }
-      ]
-    },
-    {
-      "day": "Sunday",
-      "lessons": [
-        {
-          "number": 0,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 1,
-          "name": null,
-          "teacher": null,
-          "place": null
         },
         {
           "number": 2,

@@ -329,53 +329,6 @@
           "place": null
         }
       ]
-    },
-    {
-      "day": "Sunday",
-      "lessons": [
-        {
-          "number": 0,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 1,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 2,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 3,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 4,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 5,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 6,
-          "name": null,
-          "teacher": null,
-          "place": null
-        }
-      ]
     }
   ]
 }

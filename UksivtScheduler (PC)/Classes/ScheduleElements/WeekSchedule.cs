@@ -43,5 +43,25 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
             Days = days;
         }
         #endregion
+
+        #region Область: Методы.
+        public Boolean Equals(WeekSchedule obj)
+        {
+            if (GroupName != obj.GroupName || Days.Count != obj.Days.Count)
+            {
+                return false;
+            }
+
+            for (int i = 0; i < Days.Count; i++)
+            {
+                if (obj.Days[i].ToString() != Days[i].ToString())
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+        #endregion
     }
 }

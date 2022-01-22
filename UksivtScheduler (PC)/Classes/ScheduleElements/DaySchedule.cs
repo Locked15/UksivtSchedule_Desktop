@@ -148,6 +148,22 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
 
             return toReturn.ToString();
         }
+
+        public Boolean Equals(DaySchedule obj)
+        {
+            if (Lessons.Count != obj.Lessons.Count || 
+            Day != obj.Day)
+            {
+                return false;
+            }
+
+            if (ToString() != obj.ToString())
+            {
+                return false;
+            }
+
+            return true;
+        }
         #endregion
     }
 }

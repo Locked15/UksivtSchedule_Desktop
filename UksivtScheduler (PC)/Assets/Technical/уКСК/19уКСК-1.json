@@ -1,44 +1,44 @@
 {
-  "groupName": "19уКСК-1",
+  "groupName": "19уКСК-2",
   "days": [
     {
       "day": "Monday",
       "lessons": [
         {
           "number": 0,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 1,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 2,
-          "name": "Экономика орг",
-          "teacher": "Дуйсенова Е.А.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 3,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 4,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 5,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 6,
@@ -53,20 +53,20 @@
       "lessons": [
         {
           "number": 0,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 1,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 2,
-          "name": null,
-          "teacher": null,
+          "name": "Физ-ра",
+          "teacher": "Баранов А.В.",
           "place": null
         },
         {
@@ -77,21 +77,21 @@
         },
         {
           "number": 4,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 5,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 6,
-          "name": "Экономика орг",
-          "teacher": "Дуйсенова Е.А.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         }
       ]
     },
@@ -119,20 +119,20 @@
         {
           "number": 3,
           "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 4,
           "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 5,
           "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 6,
@@ -153,39 +153,39 @@
         },
         {
           "number": 1,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "Экономика орг",
+          "teacher": "Дуйсенова Е.А.",
+          "place": "339"
         },
         {
           "number": 2,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "Диагностика БАПК",
+          "teacher": "Шарипов Н.Т.",
+          "place": "2"
         },
         {
           "number": 3,
+          "name": "Диагностика БАПК",
+          "teacher": "Шарипов Н.Т.",
+          "place": "2"
+        },
+        {
+          "number": 4,
           "name": null,
           "teacher": null,
           "place": null
         },
         {
-          "number": 4,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
-        },
-        {
           "number": 5,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 6,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         }
       ]
     },
@@ -200,15 +200,15 @@
         },
         {
           "number": 1,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 2,
-          "name": "МДК 03.01",
-          "teacher": "Тимашев Т.Р.",
-          "place": "1"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 3,
@@ -218,21 +218,21 @@
         },
         {
           "number": 4,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 5,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 6,
-          "name": null,
-          "teacher": null,
-          "place": null
+          "name": "Экономика орг",
+          "teacher": "Дуйсенова Е.А.",
+          "place": "2"
         }
       ]
     },
@@ -247,27 +247,27 @@
         },
         {
           "number": 1,
-          "name": "Ин.яз",
-          "teacher": "Ахметова А.М.",
-          "place": "322"
+          "name": null,
+          "teacher": null,
+          "place": null
         },
         {
           "number": 2,
-          "name": "Диагностика БАПК",
-          "teacher": "Шарипов Н.Т.",
-          "place": "001"
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 3,
-          "name": "Диагностика БАПК",
-          "teacher": "Шарипов Н.Т.",
-          "place": "001"
+          "name": "МДК 03.01",
+          "teacher": "Кувшинников А.М.",
+          "place": "2"
         },
         {
           "number": 4,
-          "name": "Физ-ра",
-          "teacher": "Баранов А.В.",
-          "place": null
+          "name": "Ин.яз",
+          "teacher": "Ахметова А.М.",
+          "place": "322"
         },
         {
           "number": 5,

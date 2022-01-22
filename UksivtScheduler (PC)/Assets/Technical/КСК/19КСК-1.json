@@ -53,7 +53,7 @@
       "lessons": [
         {
           "number": 0,
-          "name": "Ист. пит  СВТ /-",
+          "name": "Ист. пит  СВТ (1 Группа)",
           "teacher": "Ларионова Е. В.",
           "place": "11"
         },
@@ -65,7 +65,7 @@
         },
         {
           "number": 2,
-          "name": "-/ Ист. пит СВТ",
+          "name": "Ист. пит СВТ (2 Группа)",
           "teacher": "Ларионова Е. В.",
           "place": "11"
         },
@@ -165,7 +165,7 @@
         },
         {
           "number": 3,
-          "name": "-/ КС",
+          "name": "КС (2 Группа)",
           "teacher": "Поглазов К. Ю.",
           "place": "3"
         },
@@ -194,7 +194,7 @@
       "lessons": [
         {
           "number": 0,
-          "name": "Прикладная эл-ка /-",
+          "name": "Прикладная эл-ка (1 Группа)",
           "teacher": "Колесников Д. Н.",
           "place": "14"
         },
@@ -206,9 +206,15 @@
         },
         {
           "number": 2,
-          "name": "КС / Прикл. эл-ка",
-          "teacher": "Колесников Д. Н. / Поглазов К. Ю.",
-          "place": "14 / 320"
+          "name": "КС (1 Группа)",
+          "teacher": "Колесников Д. Н.",
+          "place": "14"
+        },
+        {
+          "number": 2,
+          "name": "Прикл. эл-ка (2 Группа)",
+          "teacher": "Поглазов К. Ю.",
+          "place": "320"
         },
         {
           "number": 3,
@@ -262,53 +268,6 @@
           "name": "Пр. САПП",
           "teacher": "Лихарев И. А.",
           "place": "11"
-        },
-        {
-          "number": 4,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 5,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 6,
-          "name": null,
-          "teacher": null,
-          "place": null
-        }
-      ]
-    },
-    {
-      "day": "Sunday",
-      "lessons": [
-        {
-          "number": 0,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 1,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 2,
-          "name": null,
-          "teacher": null,
-          "place": null
-        },
-        {
-          "number": 3,
-          "name": null,
-          "teacher": null,
-          "place": null
         },
         {
           "number": 4,
