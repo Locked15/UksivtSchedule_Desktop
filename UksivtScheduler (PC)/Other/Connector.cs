@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using UksivtScheduler_PC.Classes.ScheduleElements;
 
-namespace UksivtScheduler_PC.Other;
+namespace UksivtScheduler_PC.Other
 {
     /*
      * Строка подключения для DB:
