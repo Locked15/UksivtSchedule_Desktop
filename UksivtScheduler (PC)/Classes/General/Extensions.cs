@@ -223,9 +223,10 @@ namespace UksivtScheduler_PC.Classes.General
         /// <returns>Название подпапки (префикс).</returns>
         public static String GetPrefixFromName(this String groupName)
         {
-            groupName = groupName.ToLower();
             String yearEnd;
+            groupName = groupName.ToLower();
 
+            #region Подобласть: Вычисление года поступления.
             //Если сейчас второй семестр, то первый курс поступал в прошлом году.
             if (DateTime.Now.Month <= 6)
             {
@@ -237,7 +238,8 @@ namespace UksivtScheduler_PC.Classes.General
             {
                 yearEnd = DateTime.Now.Year.ToString()[2..];
             }
- 
+            #endregion
+
             //Общеобразовательное.
             if (groupName.Contains(yearEnd) && (!groupName.Contains("укск")))
             {
@@ -264,7 +266,7 @@ namespace UksivtScheduler_PC.Classes.General
 
                 //Информатика и Программирование.
                 else if (check("п") || check("ис") || check("и") || check("веб") || 
-                check("оиб"))
+                check("оиб") || check("бд"))
                 {
                     return "Programming";
                 }
