@@ -55,14 +55,30 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
         /// <returns>Измененное расписание.</returns>
         public DaySchedule MergeChanges(List<Lesson> changes, Boolean absoluteChanges)
         {
-            List<Lesson> mergedSchedule = Lessons;
+            List<Lesson> mergedSchedule = GetEmptyLessons();
 
             if (absoluteChanges)
             {
+                mergedSchedule = FillEmptyLessons(changes);
+                mergedSchedule.RemoveAll(element => !element.CheckHaveValue());
+
                 //Чтобы избавиться от возможных проблем со ссылками в будущем, ...
                 //... создаем новый объект:
-                return new DaySchedule(Day, FillEmptyLessons(changes));
+                return new DaySchedule(Day, mergedSchedule);
             }
+
+            #region Подобласть: Подготовка пустого расписания.
+            for (int i = 0; i < Lessons.Count; i++)
+            {
+                for (int j = 0; j < mergedSchedule.Count; j++)
+                {
+                    if (Lessons[i].Number.Equals(mergedSchedule[j].Number))
+                    {
+                        mergedSchedule[j] = Lessons[i];
+                    }
+                }
+            }
+            #endregion
 
             foreach (Lesson change in changes)
             {
@@ -76,6 +92,8 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
                 mergedSchedule[lessonIndex] = change;
             }
 
+            mergedSchedule.RemoveAll(element => !element.CheckHaveValue());
+            mergedSchedule = mergedSchedule.OrderBy(element => element.Number).ToList();
             return new DaySchedule(Day, mergedSchedule);
         }
 
@@ -109,7 +127,7 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
 
             //Добавленные "пустые" пары находятся в конце списка, так что ...
             //... мы сортируем их в порядке номера пар:
-            lessons.OrderBy(lesson => lesson.Number);
+            lessons = lessons.OrderBy(lesson => lesson.Number).ToList();
 
             return lessons;
         }
@@ -131,6 +149,28 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
             return new DaySchedule(day, lessons);
         }
 
+        /// <summary>
+        /// Метод для получения списка с пустыми парами.
+        /// </summary>
+        /// <returns>Список с пустыми парами.</returns>
+        public static List<Lesson> GetEmptyLessons()
+        {
+            List<Lesson> toReturn = new(1);
+            toReturn.Add(new(0));
+            toReturn.Add(new(1));
+            toReturn.Add(new(2));
+            toReturn.Add(new(3));
+            toReturn.Add(new(4));
+            toReturn.Add(new(5));
+            toReturn.Add(new(6));
+
+            return toReturn;
+        }
+
+        /// <summary>
+        /// Метод для получения строкового представления объекта.
+        /// </summary>
+        /// <returns>Строковое представление объекта.</returns>
         public override string ToString()
         {
             StringBuilder toReturn = new(Day + ":\n" +
@@ -149,6 +189,11 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
             return toReturn.ToString();
         }
 
+        /// <summary>
+        /// Метод для сравнения объектов.
+        /// </summary>
+        /// <param name="obj">Объект, с которым необходимо провести сравнение.</param>
+        /// <returns>Логическое значение, отвечающее за равенство объектов.</returns>
         public Boolean Equals(DaySchedule obj)
         {
             if (Lessons.Count != obj.Lessons.Count || 

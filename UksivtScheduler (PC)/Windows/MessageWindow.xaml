@@ -9,6 +9,7 @@
         ResizeMode = "NoResize"
         Height = "200" Width = "300"
         WindowStartupLocation = "CenterScreen"
+        Topmost = "True"
         BorderThickness = "2"
         Icon = "{DynamicResource EmptyImage}">
 

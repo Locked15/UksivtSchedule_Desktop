@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Linq;
 using System.Windows;
+using System.Threading;
 using System.Threading.Tasks;
 using UksivtScheduler_PC.Controls;
 using UksivtScheduler_PC.Classes.General;
-using UksivtScheduler_PC.Classes.SiteParser;
-using UksivtScheduler_PC.Classes.DocumentParser;
+using UksivtScheduler_PC.Classes.ScheduleAPI;
 using UksivtScheduler_PC.Classes.ScheduleElements;
 using Bool = System.Boolean;
 
@@ -39,6 +38,11 @@ namespace UksivtScheduler_PC.Windows
         /// Поле, содержащее значение, определяющее субъект, вызывающий закрытие окна.
         /// </summary>
         private Bool returnBack = false;
+
+        /// <summary>
+        /// Поле, содержащее флаг остановки субпотока.
+        /// </summary>
+        private Bool subQueryStopped = false;
         #endregion
 
         #region Область: Конструктор.
@@ -84,6 +88,8 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="e">Аргументы события.</param>
         private void Window_Closed(Object sender, EventArgs e)
         {
+            subQueryStopped = true;
+
             if (!returnBack)
             {
                 Application.Current.Shutdown();
@@ -99,7 +105,7 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="subFolder">Принадлежность группы.</param>
         /// <param name="group">Название группы.</param>
         /// <param name="day">День для получения расписания.</param>
-        private async void InitizlizeFields(String prefix, String subFolder, String group, String day)
+        private void InitizlizeFields(String prefix, String subFolder, String group, String day)
         {
             //Создаем экземпляр диалогового окна для вывода информации:
             MessageWindow message = new MessageWindow();
@@ -112,7 +118,7 @@ namespace UksivtScheduler_PC.Windows
             Schedule_Header.Content += $" {day}.";
 
             //Операции занимают много времени, выносим в отдельный поток:
-            await Task.Run(async () =>
+            new Thread(async () =>
             {
                 originalSchedule.Lessons.RemoveAll(lesson => !lesson.CheckHaveValue());
                 InsertData(originalSchedule);
@@ -126,43 +132,44 @@ namespace UksivtScheduler_PC.Windows
                     });
                 });
 
-                //Парсим сайт и получаем нужный элемент:
-                Parser parse = new Parser();
-                ChangeElement change = parse.ParseAvailableNodes().TryToFindElementByNameOfDayWithoutPreviousWeeks(day);
-
-                if (change != null && change.CheckHavingChanges())
+                try
                 {
-                    //Парсим файл с заменами и получаем измененное расписание:
-                    String url = Helper.GetDownloadableFileLink(change.LinkToDocument);
-                    ChangesReader reader = new ChangesReader(Helper.DownloadFileFromURL(url));
-                    scheduleWithChanges = reader.GetDayScheduleWithChanges(day, group, originalSchedule);
+                    ChangesOfDay changes = new ApiConnector(day.GetIndexByDay(), group).GetChanges();
 
-                    await Task.Run(() =>
+                    if (!changes.Equals(ChangesOfDay.DefaultChanges) && !subQueryStopped)
                     {
-                        Dispatcher.BeginInvoke(() =>
+                        scheduleWithChanges = originalSchedule.MergeChanges(changes.NewLessons, changes.AbsoluteChanges);
+                        InsertData(scheduleWithChanges);
+
+                        Dispatcher.Invoke(() =>
                         {
                             message.Close();
 
                             message = new MessageWindow("Уведомление", "Получены данные замен.");
                             message.ShowDialog();
                         });
-                    });
+                    }
 
-                    scheduleWithChanges.Lessons.RemoveAll(lesson => !lesson.CheckHaveValue());
-                    InsertData(scheduleWithChanges);
-                }
-
-                else
-                {
-                    Dispatcher.Invoke(() =>
+                    else if (!subQueryStopped)
                     {
-                        message.Close();
+                        Dispatcher.Invoke(() =>
+                        {
+                            message.Close();
 
-                        message = new MessageWindow("Уведомление", "Данные замен не обнаружены.\nОтображено оригинальное расписание.");
-                        message.ShowDialog();
-                    });
+                            message = new MessageWindow("Уведомление", "Данные замен не обнаружены.\nОтображено оригинальное расписание.");
+                            message.ShowDialog();
+                        });
+                    }
                 }
-            });
+
+                catch (System.Net.Http.HttpRequestException)
+                {
+                    message.Close();
+
+                    message = new MessageWindow("Ошибка", "ошибка при получении замен.");
+                    message.ShowDialog();
+                }
+            }).Start();
         }
 
         /// <summary>

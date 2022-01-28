@@ -80,5 +80,18 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
             return Name != null;
         }
         #endregion
+
+        #region Область: Методы.
+        /// <summary>
+        /// Метод для сравнения двух объектов.
+        /// </summary>
+        /// <param name="lesson">Второй объект для сравнения.</param>
+        /// <returns>Результат сравнения.</returns>
+        public Bool Equals(Lesson lesson)
+        {
+            return Number == lesson.Number && Name == lesson.Name && 
+            Teacher == lesson.Teacher && Place == lesson.Place;
+        }
+        #endregion
     }
 }
