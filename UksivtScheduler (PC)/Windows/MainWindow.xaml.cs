@@ -102,6 +102,20 @@ namespace UksivtScheduler_PC
         }
         #endregion
 
+        #region Область: Прочие события.
+        /// <summary>
+        /// Событие, происходящее в момент закрытия окна.
+        /// <br/>
+        /// Нужно для устранения утечек памяти.
+        /// </summary>
+        /// <param name="sender">Объект, вызвавший событие.</param>
+        /// <param name="e">Аргументы события.</param>
+        private void Window_Closed(Object sender, EventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+        #endregion
+
         #region Область: Методы.
         /// <summary>
         /// Вынесенный в отдельный метод, функционал создания нового окна.

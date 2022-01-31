@@ -9,7 +9,8 @@
     MinHeight = "800" MinWidth = "800"
     Height = "800" Width = "800"
     Title = "Расписание УКСиВТ"
-    WindowStartupLocation = "CenterScreen">
+    WindowStartupLocation = "CenterScreen"
+    Closed = "Window_Closed">
     
     <Grid>
         <!-- #region Область: Строки и Столбцы. -->

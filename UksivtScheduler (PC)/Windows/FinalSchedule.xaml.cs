@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Threading;
+using System.Windows.Media;
 using System.Threading.Tasks;
 using UksivtScheduler_PC.Controls;
 using UksivtScheduler_PC.Classes.General;
@@ -192,11 +193,16 @@ namespace UksivtScheduler_PC.Windows
                 String name = lesson.Name;
                 String teacher = lesson.Teacher;
                 String place = lesson.Place;
+                Bool changed = lesson.LessonChanged;
 
                 //Вызываем "Dispathcer":
                 Dispatcher.Invoke(() =>
                 {
-                    ScheduleElement element = new ScheduleElement(number, name, teacher, place);
+                    //changed ? Color.Wheat : Color.White;
+                    SolidColorBrush color = new(changed ? Color.FromRgb(245, 222, 179) : Color.FromRgb(255, 255, 255));
+                    ScheduleElement element = new(number, name, teacher, place);
+
+                    element.Background = color;
 
                     Schedule_LessonsList.Items.Add(element);
                 });

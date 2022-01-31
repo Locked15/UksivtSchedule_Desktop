@@ -31,6 +31,13 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
         /// Свойство, содержащее место проведения пары.
         /// </summary>
         public String Place { get; set; }
+
+        /// <summary>
+        /// Свойство, содержащее значение, отвечающее за то, была ли заменена пара.
+        /// <br/>
+        /// Значение по умолчанию: False.
+        /// </summary>
+        public Bool LessonChanged { get; set; } = false;
         #endregion
 
         #region Область: Конструкторы.
@@ -61,12 +68,24 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
         /// <param name="name">Названия пары.</param>
         /// <param name="teacher">Имя преподавателя.</param>
         /// <param name="place">Место проведения.</param>
-        public Lesson(Int32 number, String name, String teacher, String place)
+        public Lesson(Int32 number, String name, String teacher, String place) : this(number)
         {
-            Number = number;
             Name = name;
             Teacher = teacher;
             Place = place;
+        }
+
+        /// <summary>
+        /// Конструктор класса.
+        /// </summary>
+        /// <param name="number">Номер пары.</param>
+        /// <param name="name">Название пары.</param>
+        /// <param name="teacher">Имя преподавателя.</param>
+        /// <param name="place">Место проведения пары.</param>
+        /// <param name="lessonChanged">Изменялась ли пара по заменам?</param>
+        public Lesson(Int32 number, String name, String teacher, String place, Bool lessonChanged) : this(number, name, teacher, place)
+        {
+            LessonChanged = lessonChanged;
         }
         #endregion
 

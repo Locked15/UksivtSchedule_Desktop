@@ -59,12 +59,10 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
 
             if (absoluteChanges)
             {
-                mergedSchedule = FillEmptyLessons(changes);
-                mergedSchedule.RemoveAll(element => !element.CheckHaveValue());
+                DaySchedule newSchedule = new(Day, changes);
+                newSchedule.Lessons.ForEach(lesson => lesson.LessonChanged = true);
 
-                //Чтобы избавиться от возможных проблем со ссылками в будущем, ...
-                //... создаем новый объект:
-                return new DaySchedule(Day, mergedSchedule);
+                return newSchedule;
             }
 
             #region Подобласть: Подготовка пустого расписания.
@@ -90,6 +88,7 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
                 }
 
                 mergedSchedule[lessonIndex] = change;
+                mergedSchedule[lessonIndex].LessonChanged = true;
             }
 
             mergedSchedule.RemoveAll(element => !element.CheckHaveValue());
