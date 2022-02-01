@@ -63,7 +63,7 @@ namespace UksivtScheduler_PC.Classes.ScheduleAPI
         static ApiConnector()
         {
             //region Подобласть: Инициализация "baseUrl'.
-            baseUrl = "https://scheduleapi20220126123653.azurewebsites.net";
+            baseUrl = "http://uksivtscheduleapi.azurewebsites.net/";
             //endregion
 
             //region Подобласть: Инициализация "pathToDay".
