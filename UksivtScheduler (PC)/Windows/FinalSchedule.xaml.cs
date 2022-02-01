@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows;
 using System.Threading;
 using System.Windows.Media;
@@ -179,6 +180,8 @@ namespace UksivtScheduler_PC.Windows
         /// <param name="schedule">Расписание для вставки в таблицу.</param>
         private void InsertData(DaySchedule schedule)
         {
+            schedule.Lessons.RemoveAll(lesson => !lesson.CheckHaveValue());
+
             //Для очистки списка элементов в другом потоке тоже нужен "Dispatcher".
             Dispatcher.Invoke(() =>
             {
@@ -199,7 +202,7 @@ namespace UksivtScheduler_PC.Windows
                 Dispatcher.Invoke(() =>
                 {
                     //changed ? Color.Wheat : Color.White;
-                    SolidColorBrush color = new(changed ? Color.FromRgb(245, 222, 179) : Color.FromRgb(255, 255, 255));
+                    SolidColorBrush color = new(changed ? Color.FromRgb(139, 202, 235) : Color.FromRgb(255, 255, 255));
                     ScheduleElement element = new(number, name, teacher, place);
 
                     element.Background = color;

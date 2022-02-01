@@ -91,7 +91,6 @@ namespace UksivtScheduler_PC.Classes.ScheduleElements
                 mergedSchedule[lessonIndex].LessonChanged = true;
             }
 
-            mergedSchedule.RemoveAll(element => !element.CheckHaveValue());
             mergedSchedule = mergedSchedule.OrderBy(element => element.Number).ToList();
             return new DaySchedule(Day, mergedSchedule);
         }
