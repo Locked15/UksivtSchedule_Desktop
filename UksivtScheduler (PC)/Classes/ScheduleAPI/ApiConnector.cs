@@ -4,6 +4,9 @@ using Newtonsoft.Json;
 
 namespace UksivtScheduler_PC.Classes.ScheduleAPI
 {
+    /// <summary>
+    /// Класс, содержащий логику для подключения к API.
+    /// </summary>
     public class ApiConnector
     {
         #region Область: Поля.
@@ -110,6 +113,6 @@ namespace UksivtScheduler_PC.Classes.ScheduleAPI
 
             return ChangesOfDay.DefaultChanges;
         }
+        #endregion
     }
-    #endregion
 }

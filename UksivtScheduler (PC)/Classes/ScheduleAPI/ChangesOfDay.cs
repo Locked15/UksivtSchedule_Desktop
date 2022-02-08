@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using UksivtScheduler_PC.Classes.ScheduleElements;
 using Bool = System.Boolean;
@@ -12,9 +13,22 @@ namespace UksivtScheduler_PC.Classes.ScheduleAPI
     {
         #region Область: Свойства.
         /// <summary>
+        /// Свойство, отвечающее за то, что элемент с заменами на указанный день найден.
+        /// <br/>
+        /// Это нужно, чтобы можно было выводить разные сообщения, в зависимости от того,
+        /// не найдены ли замены для текущей даты вообще, или не найдены только для указанной группы.
+        /// </summary>
+        public Bool ChangesFound { get; set; }
+
+        /// <summary>
         /// Свойство, содержащее значение, отвечающее за то, на весь ли день замены или нет.
         /// </summary>
         public Bool AbsoluteChanges { get; set; }
+
+        /// <summary>
+        /// Свойство, отвечающее за дату, на которую предназначены замены.
+        /// </summary>
+        public DateTime? ChangesDate { get; set; }
 
         /// <summary>
         /// Свойство, содержащее список с новыми парами.
@@ -37,6 +51,7 @@ namespace UksivtScheduler_PC.Classes.ScheduleAPI
         /// </summary>
         public ChangesOfDay()
         {
+            ChangesFound = false;
             AbsoluteChanges = false;
             NewLessons = Enumerable.Empty<Lesson>().ToList();
         }
@@ -49,6 +64,34 @@ namespace UksivtScheduler_PC.Classes.ScheduleAPI
         public ChangesOfDay(Bool absoluteChanges, List<Lesson> newLessons)
         {
             AbsoluteChanges = absoluteChanges;
+            NewLessons = newLessons;
+        }
+
+        /// <summary>
+        /// Конструктор класса.
+        /// </summary>
+        /// <param name="changesFound">Найдены ли замены.</param>
+        /// <param name="absoluteChanges">Замены на весь день?</param>
+        /// <param name="newLessons">Список с новыми парами.</param>
+        public ChangesOfDay(Bool changesFound, Bool absoluteChanges, List<Lesson> newLessons)
+        {
+            ChangesFound = changesFound;
+            AbsoluteChanges = absoluteChanges;
+            NewLessons = newLessons;
+        }
+
+        /// <summary>
+        /// Конструктор класса.
+        /// </summary>
+        /// <param name="changesFound">Найдены ли замены.</param>
+        /// <param name="absoluteChanges">Замены на весь день?</param>
+        /// <param name="changesDate">Дата, на которую предназначены замены.</param>
+        /// <param name="newLessons">Список с новыми парами.</param>
+        public ChangesOfDay(Bool changesFound, Bool absoluteChanges, DateTime? changesDate, List<Lesson> newLessons)
+        {
+            ChangesFound = changesFound;
+            AbsoluteChanges = absoluteChanges;
+            ChangesDate = changesDate;
             NewLessons = newLessons;
         }
 

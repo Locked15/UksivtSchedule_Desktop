@@ -5,7 +5,7 @@
              xmlns:d = "http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local = "clr-namespace:UksivtScheduler_PC.Controls"
              mc:Ignorable = "d" 
-             MinHeight = "150" MinWidth = "300"
+             MinHeight = "100" MinWidth = "300"
              Background = "White"
              BorderBrush = "#393939"
              BorderThickness = "2">
@@ -28,17 +28,17 @@
         TextAlignment  =  "Center" Text = "№ ???"/>
 
         <!-- Название пары. -->
-        <TextBlock Name = "ScheduleElement_Name" Grid.Row = "1" Grid.Column = "0" FontSize = "26"
+        <TextBlock Name = "ScheduleElement_Name" Grid.Row = "1" Grid.Column = "0" FontSize = "24"
         FontFamily = "Georgia" TextWrapping = "Wrap" VerticalAlignment = "Center" TextAlignment = "Left"
         Text = "Example Lesson." FontStyle = "Italic"/>
 
         <!-- Место проведения пары. -->
-        <TextBlock Name = "ScheduleElement_Place" Grid.Row = "1" Grid.Column = "1" FontSize = "26"
+        <TextBlock Name = "ScheduleElement_Place" Grid.Row = "1" Grid.Column = "1" FontSize = "20"
         FontFamily = "Georgia" TextWrapping = "Wrap" VerticalAlignment = "Center" TextAlignment = "Right"
         Text = "Example Place."/>
         
         <!-- Преподаватель. -->
-        <TextBlock Name = "ScheduleElement_Teacher" Grid.Row = "2" Grid.Column = "0" Grid.ColumnSpan = "2" FontSize = "26"
+        <TextBlock Name = "ScheduleElement_Teacher" Grid.Row = "2" Grid.Column = "0" Grid.ColumnSpan = "2" FontSize = "20"
         FontFamily = "Georgia" TextWrapping = "Wrap" VerticalAlignment = "Center" TextAlignment = "Center"
         Text = "Example Teacher." FontWeight = "Bold"/>
     </Grid>

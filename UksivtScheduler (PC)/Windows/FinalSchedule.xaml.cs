@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Windows;
 using System.Threading;
 using System.Windows.Media;
@@ -117,7 +116,7 @@ namespace UksivtScheduler_PC.Windows
 
             //Устанавливаем заголовок и тайтл:
             Title += " — " + day;
-            Schedule_Header.Content += $" {day}.";
+            Schedule_Header.Text += $"{day}.";
 
             //Операции занимают много времени, выносим в отдельный поток:
             new Thread(async () =>
@@ -143,32 +142,48 @@ namespace UksivtScheduler_PC.Windows
                         scheduleWithChanges = originalSchedule.MergeChanges(changes.NewLessons, changes.AbsoluteChanges);
                         InsertData(scheduleWithChanges);
 
-                        Dispatcher.Invoke(() =>
+                        await Task.Run(() =>
                         {
-                            message.Close();
+                            Dispatcher.BeginInvoke(() =>
+                            {
+                                message.Close();
 
-                            message = new MessageWindow("Уведомление", "Получены данные замен.");
-                            message.ShowDialog();
+                                message = new MessageWindow("Уведомление", "Получены данные замен.");
+                                message.ShowDialog();
+                            });
                         });
                     }
 
                     else if (!subQueryStopped)
                     {
-                        Dispatcher.Invoke(() =>
-                        {
-                            message.Close();
+                        String info = changes.ChangesFound ? "Замены для указанной группы не обнаружены.\nОтображено оригинальное расписание." :
+                        "Файл с заменами для указанного дня не обнаружен.\nОтображено оригинальное расписание.";
 
-                            message = new MessageWindow("Уведомление", "Данные замен не обнаружены.\nОтображено оригинальное расписание.");
-                            message.ShowDialog();
+                        await Task.Run(() =>
+                        {
+                            Dispatcher.BeginInvoke(() =>
+                            {
+                                message.Close();
+
+                                message = new MessageWindow("Уведомление", info);
+                                message.ShowDialog();
+                            });
                         });
                     }
+
+                    // Отображаем дату, на которую приходятся замены:
+                    Dispatcher.Invoke(() =>
+                    {
+                        Schedule_Header.Text += changes.ChangesDate.HasValue ?
+                        $"\n({changes.ChangesDate.Value:dd.MM.yyyy!})" : "\n(N/A).";
+                    });
                 }
 
                 catch (System.Net.Http.HttpRequestException)
                 {
                     message.Close();
 
-                    message = new MessageWindow("Ошибка", "ошибка при получении замен.");
+                    message = new MessageWindow("Ошибка", "Ошибка при получении замен.");
                     message.ShowDialog();
                 }
             }).Start();

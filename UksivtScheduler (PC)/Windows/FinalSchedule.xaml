@@ -23,16 +23,16 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height = "10*"/>
-            <RowDefinition Height = "40*"/>
+            <RowDefinition Height = "80*"/>
             <RowDefinition Height = "380*"/>
             <RowDefinition Height = "10*"/>
             <RowDefinition Height = "40*"/>
             <RowDefinition Height = "10*"/>
         </Grid.RowDefinitions>
 
-        <Label Name = "Schedule_Header" Grid.Row = "1" Grid.Column = "1" Grid.ColumnSpan = "3" FontSize = "26"
-        FontFamily = "Georgia" Content = "Текущий день: " VerticalContentAlignment = "Center"
-        HorizontalContentAlignment = "Center"/>
+        <TextBlock Name = "Schedule_Header" Grid.Row = "1" Grid.Column = "1" Grid.ColumnSpan = "3" FontSize = "26"
+        FontFamily = "Georgia" Text = "Текущий день: " VerticalAlignment = "Center"
+        TextAlignment = "Center"/>
 
         <!-- Заполняем все данные программно. -->
         <ListView Name = "Schedule_LessonsList" Grid.Row = "2" Grid.Column = "0" Grid.ColumnSpan = "5"
