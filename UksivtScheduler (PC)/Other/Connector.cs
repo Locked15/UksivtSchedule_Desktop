@@ -6,6 +6,10 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using UksivtScheduler_PC.Classes.ScheduleElements;
 
+/// <summary>
+/// Область дополнения данных в БД.
+/// Лучше здесь ничего не трогать...
+/// </summary>
 namespace UksivtScheduler_PC.Other
 {
     /*

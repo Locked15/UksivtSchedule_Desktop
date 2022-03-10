@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows;
+using System.Threading.Tasks;
 using UksivtScheduler_PC.Windows;
+using UksivtScheduler_PC.Classes.General;
 
 /// <summary>
 /// Область с окном выбора направления.
@@ -37,6 +39,11 @@ namespace UksivtScheduler_PC
         public MainWindow()
         {
             InitializeComponent();
+
+            Task.Run(() =>
+            {
+                Classes.ScheduleAPI.ApiConnector api = new(DateTime.Now.DayOfWeek.ToString().GetIndexByDay(), "19П-3");
+            });
         }
         #endregion
 
